@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.onehippo.addon.frontend.gallerypicker:gallerypicker:1.11.02">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/addon/frontend/gallerypicker/gallerypicker/1.11.02/gallerypicker-1.11.02.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/addon/frontend/gallerypicker/gallerypicker/1.11.02/gallerypicker-1.11.02-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/addon/frontend/gallerypicker/gallerypicker/1.11.02/gallerypicker-1.11.02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

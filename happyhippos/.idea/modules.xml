@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/happyhippos.iml" filepath="$PROJECT_DIR$/happyhippos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstrap/happyhippos-bootstrap.iml" filepath="$PROJECT_DIR$/bootstrap/happyhippos-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstrap/configuration/happyhippos-bootstrap-configuration.iml" filepath="$PROJECT_DIR$/bootstrap/configuration/happyhippos-bootstrap-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstrap/content/happyhippos-bootstrap-content.iml" filepath="$PROJECT_DIR$/bootstrap/content/happyhippos-bootstrap-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms/happyhippos-cms.iml" filepath="$PROJECT_DIR$/cms/happyhippos-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/happyhippos-site.iml" filepath="$PROJECT_DIR$/site/happyhippos-site.iml" />
+    </modules>
+  </component>
+</project>
+
