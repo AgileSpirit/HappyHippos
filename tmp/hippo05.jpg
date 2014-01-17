@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image:hippo et bb.jpg - Maïeuta</title>
+	<meta charset="utf-8">
+<meta name="description" content="Bienvenue sur Maïeuta, l'encyclopédie libre que chacun peut amélorier en partageant son savoir">	<link rel="shortcut icon" type="image/x-icon" href=/images/logos/favicon.png />
+	<link rel="stylesheet" type="text/css" href="/css/home.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/page_image.css" media="all" /></head>
+<body><div id="shadowBox"></div><div id="divCentral"></div><div id="note"></div>
+<div id="page-base" class="noprint"></div>
+<div id="head-base" class="noprint"></div>
+<!-- content -->
+<div id="content">
+	<!-- bodyContent -->
+	<div id="bodyContent">
+	<script>
+		if(top!=self)top.location.replace(self.location.href);
+		if(document.body)var larg = (document.body.clientWidth) - 220;
+		else var larg = (window.innerWidth) - 220;
+		document.write("<style>img{max-width: "+larg+"px}</style>");
+	</script>
+
+	<h1>Image: hippo et bb.jpg</h1>
+
+	<a href="http://upload.maieutapedia.org/picture/hippo_et_bb.jpg"><img id="imgArticle" src="http://upload.maieutapedia.org/picture/hippo_et_bb.jpg"></a><br>
+	<p id="sizeImg">
+Autres résolutions : <a href="/picture/thumb/320px-hippo_et_bb.jpg">320 × 240 pixels</a> - <a href="/picture/thumb/640px-hippo_et_bb.jpg">640 × 480 pixels</a> - <a href="/picture/thumb/800px-hippo_et_bb.jpg">800 × 600 pixels</a>.</p><p>Fichier original ‎(<a href="/picture/hippo_et_bb.jpg">1024 × 768 pixels</a>, taille : 517 Kio, type MIME : image/jpeg).</p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle bloc-reactif"
+     style="display:inline-block"
+     data-ad-client="ca-pub-3566060304849182"
+     data-ad-slot="6835568779"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+	</div>
+	<!-- /bodyContent -->
+</div>
+<!-- /content -->
+
+<!-- header -->
+<div id="head" class="noprint">
+	<div id="p-personal">
+		<h5 class=dNone>Outils personnels</h5>
+		<ul>
+		<li id="pt-userpage"><a id="btnlogin" class="toggle" toggle="formLogin" href="#" >Me connecter</a>
+		<li><a href="/wiki/Maïeuta:Inscription">Inscription</a>
+		<li><a href="/wiki/Maïeuta:Présentation_projet">Première visite?</a>
+		<form id="formLogin" method="POST" action="/index.php">
+			<a id="close" class="toggle" toggle="formLogin" href="#"></a>
+			<label for="login">E-mail</label><br>
+			<input id="login" type="text" name="login"><br>
+			<a class="fRight" href="/index.php?file=Password&visible=0">Oublié ?</a>
+			<label for="password">Mot de passe</label><br>
+			<input id="password" type="password" name="password"><br>
+			<div id="checkboxStay"></div>
+			<label id="labelStay">Garder ma session active</label><br>
+			<input id="stay_connected" type="hidden" value=0 name="stay_connected">
+			<input type="hidden" name="url" value="/wiki/Image:hippo_et_bb.jpg">
+			<button id="submitLogin">Connexion</button>
+		</form>
+		</ul>
+	</div>
+<div id=ad468>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle bloc-reactif-top" style="display:inline-block" data-ad-client="ca-pub-3566060304849182" data-ad-slot="4580106374"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+	<div id="left-navigation" class="vectorTabs">
+		<ul>
+			<li class="selected">
+				<span>
+					<a title="Ceci est une page spéciale, vous ne pouvez la modifier" href="#">Page spéciale</a>
+				</span>
+		</ul>
+	</div>
+	<div id="right-navigation">
+		<div id="formRecherche">
+			<input  class="searchBar" tabindex=1 value="">
+		</div>
+	</div>
+	<div id="results"></div>
+</div>
+<!-- /header -->
+
+<!-- panel -->
+<div id="panel" class="noprint">
+	<!-- logo -->
+	<div id="p-logo"><a href="/" title="Page principale"><img src="/images/logos/logo_maieuta.png" width=125 height=167></a></div>
+	<!-- /logo -->
+
+	<!-- navigation -->
+	<h5 class="first">Navigation</h5>
+
+	<h5>
+		<img src="/images/icons/mini/home.png" width=22 height=22>
+		<a href="/">Accueil</a>
+	</h5>
+
+	<h5>
+		<img src="/images/icons/mini/book.png" width=22 height=22>
+		<p>Encyclopédie</p>
+	</h5>
+
+		<ul>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Portail:Accueil">Portails thématiques</a>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Spécial:Index_alphabétique">Index alphabétique</a>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Spécial:Page_au_hasard" title="Affiche un article au hasard">Article au hasard</a>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Maïeuta:Modifications_récentes" title="Liste des derniers articles sur le wiki">Derniers articles</a>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Maïeuta:Modifications_récentes" title="Liste des modifications récentes sur le wiki">Modifications récentes</a>
+		</ul>
+
+	<!-- Contribuer -->
+	<h5>
+		<img src="/images/icons/mini/contrib.png" width=22 height=22>
+		<p>Contribuer</p>
+	</h5>
+
+		<ul>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Aide:Premiers_pas">Premiers pas</a>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Encyclopédie:Nouvel_article">Créer un article</a>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Maïeuta:Accueil_de_la_communauté" title="Accueil de la communauté">Communauté</a>
+		
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Maïeuta:Donations" title="Aidez-nous">Faire un don</a>
+		</ul>
+	<!-- /Contribuer -->
+	<!-- TOOLBOX -->
+	<h5>
+		<img src="/images/icons/mini/tool.png" width=22 height=22>
+		<p>Boîte à outils</p>
+	</h5>
+		<ul>
+			<li><img src="/images/icons/mini/puce.png" width=9 height=9>
+				<a href="/wiki/Spécial:Plan_du_site" title="Liste de toutes les pages">Plan du site</a>
+		</ul>
+	<!-- /TOOLBOX -->
+
+	<h5>
+		<img src="/images/icons/mini/dico.png" width=22 height=22>
+		<p>Dictionnaire</p>
+	</h5>
+
+		<div id=section_recherche>
+			<form action="//fr.maieutik.org/wiki/Search" method=get>
+				Chercher un mot :
+				<input type=text id=barre_recherche name=requete>
+				<img src="/images/icons/mini/loupe.png" width=15 height=15 id=loupe>
+			</form>
+		</div>
+
+	<h5>
+		<img src="/images/icons/mini/conj.png" width=22 height=22>
+		<p>Conjugueur</p>
+	</h5>
+
+		<div id=section_recherche>
+			<form action="//www.conjugaison.questmachine.org" method=get>
+				Conjuguer un verbe :
+				<input type=text id=barre_recherche name=requete>
+				<img src="/images/icons/mini/loupe.png" width=15 height=15 id=loupe>
+			</form>
+		</div>
+</div>
+<!-- /panel -->
+<!-- footer -->
+<div id="footer">
+	<ul id="footer-info">
+<li>Dernière modification de cette page le 5 janvier 2014 à 16:51.		<li><a href="/wiki/Maïeuta:Citation_et_réutilisation_du_contenu" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/fr/" title="Licence Creative Commons paternité partage des conditions initiales à l’identique 3.0 unported">licence Creative Commons paternité partage à l’identique</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="/wiki/Maïeuta:Conditions_d'utilisation" title="Conditions d’utilisation">conditions d’utilisation</a> pour plus de détails.
+	</ul>
+	<ul id="footer-places" class=noprint>
+		<li><a href="/wiki/Maïeuta:Politique_de_confidentialité" title="Maïeuta:Politique de confidentialité">Politique de confidentialité</a>
+		<li><a href="/wiki/Maïeuta:Présentation_projet" title="Maïeuta:À propos">À propos de Maïeuta</a>
+		<li><a href="/wiki/Maïeuta:Conditions_d'utilisation" title="Maïeuta:Conditions_d'utilisation">Conditions</a>
+		<li><a href="//m.fr.maieutapedia.org/wiki/Image:hippo_et_bb.jpg">Version mobile</a>
+	</ul>
+	<ul class="fRight noprint"><li>2014, Maïeuta.org</ul>
+	<div class=clear></div>
+</div>
+<!-- /footer -->
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script>
+$('#imgArticle').load(function(){
+
+}).each(function() {
+    //ensure image load is fired. Fixes opera loading bug
+	imgWidth = $('#imgArticle').width();
+	imgHeight = $('#imgArticle').height();
+
+	if(imgWidth && imgHeight){
+
+		tailleImage();
+
+	}else{
+
+		setTimeout(tailleImage, 2500);
+	}
+});
+
+function tailleImage(){
+
+	imgWidth = $('#imgArticle').width();
+	imgHeight = $('#imgArticle').height();
+
+	if(imgWidth != 1024){
+		imgTxtSize = 'Taille de cet aperçu : <a href="/picture/thumb/'+ imgWidth + 'px-hippo_et_bb.jpg">'+ imgWidth +' x '+ imgHeight +' pixels</a>.';
+		$('#sizeImg').prepend(imgTxtSize);
+	}
+}
+</script>

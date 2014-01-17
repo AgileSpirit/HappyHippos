@@ -9,8 +9,6 @@
     <hst:link var="html4shiv" path="/js/html5shiv.js"/>
     <script type="text/javascript" src="${html4shiv}"></script>
     <![endif]-->
-    <hst:link var="styleCss" path="/css/style.css"/>
-    <link rel="stylesheet" href="${styleCss}" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- Twitter Bootstrap -->
@@ -19,6 +17,8 @@
     <hst:link var="bootstrapThemeCss" path="/css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="${bootstrapThemeCss}" type="text/css"/>
 
+    <hst:link var="styleCss" path="/css/style.css"/>
+    <link rel="stylesheet" href="${styleCss}" type="text/css"/>
 </head>
 <body>
 <hst:include ref="header"/>

@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="hst:sitemenus" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sitemenus">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:sitemenus</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:lastmodified" sv:type="Date">
+    <sv:value>2014-01-17T00:10:16.208+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
+    <sv:value>admin</sv:value>
   </sv:property>
   <sv:node sv:name="main">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -31,6 +36,16 @@
         <sv:value>news</sv:value>
       </sv:property>
     </sv:node>
+    <sv:node sv:name="species">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>species</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>
-

@@ -1,10 +1,18 @@
 <'happyhippos'='http://www.onehippo.org/happyhippos/nt/1.0'>
-<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
-[happyhippos:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
-
-[happyhippos:textdocument] > happyhippos:basedocument, hippostd:relaxed
+[happyhippos:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
 
 [happyhippos:newsdocument] > happyhippos:basedocument, hippostd:relaxed
+  orderable
+
+[happyhippos:speciesdocument] > happyhippos:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[happyhippos:textdocument] > happyhippos:basedocument, hippostd:relaxed
+  orderable
+

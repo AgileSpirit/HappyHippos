@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="home">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="home">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:component</sv:value>
   </sv:property>
@@ -25,9 +24,55 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:containercomponent</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:lastmodified" sv:type="Date">
+        <sv:value>2014-01-17T17:55:27.567+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>HST.vBox</sv:value>
       </sv:property>
+      <sv:node sv:name="species">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>com.agile.spirit.components.ListView</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:iconpath" sv:type="String">
+          <sv:value>images/catalog-list.png</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:label" sv:type="String">
+          <sv:value>Home page species</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>bgColor</sv:value>
+          <sv:value>title</sv:value>
+          <sv:value>scope</sv:value>
+          <sv:value>sortBy</sv:value>
+          <sv:value>docType</sv:value>
+          <sv:value>sortOrder</sv:value>
+          <sv:value>pageSize</sv:value>
+          <sv:value>cssClass</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value/>
+          <sv:value>The most endangered species</sv:value>
+          <sv:value>/</sv:value>
+          <sv:value>happyhippos:name</sv:value>
+          <sv:value>happyhippos:speciesdocument</sv:value>
+          <sv:value>descending</sv:value>
+          <sv:value>3</sv:value>
+          <sv:value>lightgrey</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>home.main.species</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.Item</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
 </sv:node>

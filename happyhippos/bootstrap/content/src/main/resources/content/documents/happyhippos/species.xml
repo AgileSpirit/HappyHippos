@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="species">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>6026081c-b0b5-40e2-8ec3-898f2aaea1b7</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>729d5192-6c28-470f-9349-d67e19a2e1fd</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>fr</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Species</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="amur-leopard">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>dfd217fa-f992-4b38-8cc0-c2b5b3b3822e</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Amur Leopard</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="amur-leopard">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:speciesdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>840157ce-252d-49e4-8b5c-f9a62058cadb</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:description" sv:type="String">
+        <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The Amur leopard (Panthera pardus orientalis) is a very rare leopard
+subspecies that lives only in the remote and snowy northern forests of eastern
+Russian’s Primorye region. Its former range included Korea and northern China,
+but the Amur leopard is now extinct in those countries. A 2007 census counted
+only 14-20 adult Amur leopards and 5-6 cubs. Threats facing the species include
+habitat loss due to logging, road building and encroaching civilization,
+poaching (illegal hunting) and global climate change.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:name" sv:type="String">
+        <sv:value>Amur leopard</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:scientificname" sv:type="String">
+        <sv:value>Panthera pardus orientalis</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>The Amur leopard (Panthera pardus orientalis) is a very rare leopard subspecies that lives only in the remote and snowy northern forests of eastern Russian’s Primorye region. Its former range included Korea and northern China, but the Amur leopard is now extinct in those countries. A 2007 census counted only 14-20 adult Amur leopards and 5-6 cubs. Threats facing the species include habitat loss due to logging, road building and encroaching civilization, poaching (illegal hunting) and global climate change.</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>species/amur-leopard</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-17T16:52:17.639+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:13.793+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:16.431+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>44053008-466a-46ee-8652-e722b444acde</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>b34fa6ed-8a91-4f32-b502-34f6b5aad8f2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="javan-rhinoceros">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2dd034a5-a02c-4995-869b-fff72053bb9b</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Javan Rhinoceros</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="javan-rhinoceros">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:speciesdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b6d48743-bd3d-4526-85bd-8080a44a4ecd</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:description" sv:type="String">
+        <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The Javan rhinoceros (Rhinoceros sondaicus) is the most endangered of the
+world’s five rhinoceros species, with an estimated 40-60 animals remaining on
+the western tip of the Island of Java (Indonesia) in Ujung Kulon National Park.
+The last member of another tiny population in Vietnam’s Cat Tien National Park
+was killed by poachers in 2011. The water- and swamp-loving Javan rhinoceros
+formerly ranged throughout Southeast Asia and Indonesia, but has been hunted to
+near-extinction for its horn, which is used to make Asian folk medicines.
+Although it is now protected, it may not have a large-enough breeding population
+to prevent the species from going extinct.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:name" sv:type="String">
+        <sv:value>Javan Rhinoceros</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:scientificname" sv:type="String">
+        <sv:value>Rhinoceros sondaicus</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>The Javan rhinoceros (Rhinoceros sondaicus) is the most endangered of the world’s five rhinoceros species, with an estimated 40-60 animals remaining on the western tip of the Island of Java (Indonesia) in Ujung Kulon National Park. The last member of another tiny population in Vietnam’s Cat Tien National Park was killed by poachers in 2011. The water- and swamp-loving Javan rhinoceros formerly ranged throughout Southeast Asia and Indonesia, but has been hunted to near-extinction for its horn, which is used to make Asian folk medicines. Although it is now protected, it may not have a large-enough breeding population to prevent the species from going extinct.</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>species/javan-rhinoceros</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-17T16:59:35.240+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:28.659+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:31.559+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>31ed063e-a4e7-4fb2-bc53-c18e3cf4df7e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4946e7fc-6699-406a-8cff-cd1e2c92fabd</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="northern-right-whale">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5b2a99ac-e7d0-494e-a759-45b6c2626975</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Northern Right Whale</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="northern-right-whale">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:speciesdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b4df1104-d57d-420c-abb0-e6932c0e11c0</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:description" sv:type="String">
+        <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The most endangered of all the world’s whale species, the northern right
+whale (Eubalena glacialis) numbers around 350 individuals that travel the
+Atlantic coasts of Canada and the US. During the whaling days of the 19th
+century, the right whale got its name because whalers considered it the “right”
+whale to kill, as it not only was full of valuable whale oil, but it floated
+after it was dead, which made it easy to handle and process. As a result, it was
+driven to near extinction. Although the right whale is now protected, its small
+remnant population continues to suffer losses due to entanglements in commercial
+fishing gear: Whales drown after becoming wrapped in nets, lines and other
+equipment. Global climate change, which can affect the availability of the tiny
+crustaceans on which right whales feed, may prove to be another serious threat
+to their recovery.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:name" sv:type="String">
+        <sv:value>Northern Right Whale</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:scientificname" sv:type="String">
+        <sv:value>Eubalena glacialis</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>The most endangered of all the world’s whale species, the northern right whale (Eubalena glacialis) numbers around 350 individuals that travel the Atlantic coasts of Canada and the US. During the whaling days of the 19th century, the right whale got its name because whalers considered it the “right” whale to kill, as it not only was full of valuable whale oil, but it floated after it was dead, which made it easy to handle and process. As a result, it was driven to near extinction. Although the right whale is now protected, its small remnant population continues to suffer losses due to entanglements in commercial fishing gear: Whales drown after becoming wrapped in nets, lines and other equipment. Global climate change, which can affect the availability of the tiny crustaceans on which right whales feed, may prove to be another serious threat to their recovery.</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>species/northern-right-whale</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:03:36.982+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:42.370+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:44.184+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>bf6c26e0-7716-4371-8af3-d2e75e6d1b5e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>57c15579-dbd0-4f77-ba88-8bb87acc8525</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="siberian-tiger">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a93f9206-e00d-4c1c-a206-78ac2f177dd7</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Siberian Tiger</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="siberian-tiger">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:speciesdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>64f0055a-7ad8-499a-b929-05fba4872936</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:description" sv:type="String">
+        <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The Amur, or Siberian, tiger (Panthera tigris altaica) is the largest big cat
+in the world, weighing up to 300 kilograms (660 pounds). Unlike the other tiger
+subspecies, which are jungle-dwellers, the Amur tiger lives in the birch forests
+of Russia’s frigid and snowy Far East, and formerly inhabited the colder regions
+of China and Korea. In fact, the animal thrives in winter temperatures that
+often drop to -50 degrees fahrenheit (-45 celsius). Due to relentless hunting,
+Russia’s tiger population had dropped to around 40 individuals by the 1930′s.
+Since then, the animal has been protected, and its numbers have rebounded to
+around 500. However, it is still threatened by illegal hunting and habitat loss
+in the form of logging and development.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:name" sv:type="String">
+        <sv:value>Siberian Tiger</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:scientificname" sv:type="String">
+        <sv:value>Panthera tigris altaica</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>The Amur, or Siberian, tiger (Panthera tigris altaica) is the largest big cat in the world, weighing up to 300 kilograms (660 pounds). Unlike the other tiger subspecies, which are jungle-dwellers, the Amur tiger lives in the birch forests of Russia’s frigid and snowy Far East, and formerly inhabited the colder regions of China and Korea. In fact, the animal thrives in winter temperatures that often drop to -50 degrees fahrenheit (-45 celsius). Due to relentless hunting, Russia’s tiger population had dropped to around 40 individuals by the 1930′s. Since then, the animal has been protected, and its numbers have rebounded to around 500. However, it is still threatened by illegal hunting and habitat loss in the form of logging and development.</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>species/siberian-tiger</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:06:13.480+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:52.597+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:44:54.918+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>850432bd-cf72-48c2-88f6-0089b388d2ac</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>fa6daab8-2542-4817-a8e6-e3e5cf2f2e5c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mountain-gorilla">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8e809ca0-de1b-4855-9b2f-2849d22f51b2</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Mountain Gorilla</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="mountain-gorilla">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:speciesdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cbd0dc18-d352-4f1f-99d0-e911cb52576e</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:description" sv:type="String">
+        <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The mountain gorilla (Gorilla beringei) is the largest of the four gorilla
+subspecies. Its natural range in the highlands of east-central Africa consists
+of two relatively small areas, a factor that has made it extremely vulnerable to
+a variety of human-related threats. Ongoing wars and poverty in the region have
+facilitated the illegal hunting of gorillas as well as illegal timber harvesting
+that has further reduced the mountain gorilla’s habitat. Due largely to the
+attention of international conservationists, the mountain gorilla population has
+actually increased somewhat over the last two decades. However, the animals
+still number fewer than 700, and poaching fueled by political instability
+continues to be a huge problem for the mountain gorilla.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:name" sv:type="String">
+        <sv:value>Moutain Gorilla</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:scientificname" sv:type="String">
+        <sv:value>Gorilla beringei</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>The mountain gorilla (Gorilla beringei) is the largest of the four gorilla subspecies. Its natural range in the highlands of east-central Africa consists of two relatively small areas, a factor that has made it extremely vulnerable to a variety of human-related threats. Ongoing wars and poverty in the region have facilitated the illegal hunting of gorillas as well as illegal timber harvesting that has further reduced the mountain gorilla’s habitat. Due largely to the attention of international conservationists, the mountain gorilla population has actually increased somewhat over the last two decades. However, the animals still number fewer than 700, and poaching fueled by political instability continues to be a huge problem for the mountain gorilla.</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>species/mountain-gorilla</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:09:12.357+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:45:05.291+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-17T17:45:07.364+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>dab5f7dd-b376-4064-8a06-1e85049972d0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>76791c64-c0aa-46d4-bf9b-5ad6ea6c5762</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

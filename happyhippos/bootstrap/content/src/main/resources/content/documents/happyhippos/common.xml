@@ -1,23 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="common" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="common">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
-  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
-    <sv:value>hippo:translated</sv:value>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippo:harddocument</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
   </sv:property>
-  <sv:property sv:name="hippotranslation:locale" sv:type="String">
-    <sv:value>en</sv:value>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>f700e73d-552a-467d-84a9-a53b6a2acc9f</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
   </sv:property>
   <sv:property sv:name="hippotranslation:id" sv:type="String">
     <sv:value>happyhippos-common-id</sv:value>
   </sv:property>
-  <sv:property sv:name="hippostd:foldertype" sv:type="String">
-    <sv:value>new-translated-folder</sv:value>
-    <sv:value>new-document</sv:value>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
   </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
   <sv:node sv:name="hippo:translation">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:translation</sv:value>
@@ -33,9 +41,12 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippo:hardhandle</sv:value>
       <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3ad3d284-9f4c-4b27-8b35-2aebfa5159f0</sv:value>
     </sv:property>
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -52,15 +63,25 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>happyhippos:textdocument</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippo:harddocument</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>831c5a99-6b1e-4532-8b25-1bae4d247629</sv:value>
       </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>happyhippos-common-homepage-id</sv:value>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>The IUCN Red List of Threatened Species</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/homepage</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>admin</sv:value>
@@ -68,42 +89,59 @@
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>published</sv:value>
       </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
         <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2010-01-22T12:34:11.055+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2010-01-21T12:34:11.055+02:00</sv:value>
+        <sv:value>2010-01-21T11:34:11.055+01:00</sv:value>
       </sv:property>
-
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-17T16:49:03.961+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2011-02-15T14:58:39.642Z</sv:value>
+        <sv:value>2014-01-17T16:49:06.102+01:00</sv:value>
       </sv:property>
-      <sv:property sv:name="happyhippos:summary" sv:type="String">
-        <sv:value>This is the home page of the generated HST website.</sv:value>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>happyhippos-common-homepage-id</sv:value>
       </sv:property>
-      <sv:property sv:name="happyhippos:title" sv:type="String">
-        <sv:value>happyhippos Home Page</sv:value>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
       </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="happyhippos:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;Now go ahead and build your own website!&lt;/p&gt;
-          </sv:value>
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The IUCN Red List of Threatened Species™ is widely recognized as the most
+comprehensive, objective global approach for evaluating the conservation status
+of plant and animal species. From its small beginning, The IUCN Red List has
+grown in size and complexity and now plays an increasingly prominent role in
+guiding conservation activities of governments, NGOs and scientific
+institutions. The introduction in 1994 of a scientifically rigorous approach to
+determine risks of extinction that is applicable to all species, has become a
+world standard. In order to produce The IUCN Red List of Threatened Species™,
+the IUCN Global Species Programme working with the IUCN Survival Commission
+(SSC) and with members of IUCN draws on and mobilizes a network of scientists
+and partner organizations working in almost every country in the world, who
+collectively hold what is likely the most complete scientific knowledge base on
+the biology and conservation status of species.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -112,9 +150,12 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippo:hardhandle</sv:value>
       <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>93b85c75-973a-49bb-b5d5-1ee27fd6fd3c</sv:value>
     </sv:property>
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -131,45 +172,12 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>happyhippos:textdocument</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippo:harddocument</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>happyhippos-common-about-us-id</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:paths" sv:type="String">
-      </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>published</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2010-01-22T12:34:11.055+02:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2011-02-15T14:58:39.642Z</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2010-01-21T12:34:11.055+02:00</sv:value>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>eb5e19fa-3ab6-4aba-92cb-8aeab0ddf805</sv:value>
       </sv:property>
       <sv:property sv:name="happyhippos:summary" sv:type="String">
         <sv:value>Who we are.</sv:value>
@@ -177,6 +185,48 @@
       <sv:property sv:name="happyhippos:title" sv:type="String">
         <sv:value>About us</sv:value>
       </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/about-us</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T12:34:11.055+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-01-22T12:34:11.055+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-02-15T14:58:39.642Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>happyhippos-common-about-us-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="happyhippos:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>

@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
-  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
-    <sv:value>hippo:translated</sv:value>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippo:harddocument</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
   </sv:property>
-  <sv:property sv:name="hippostd:foldertype" sv:type="String">
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>3d6ce03b-7b38-4087-8de0-643fb9921ce7</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-translated-folder</sv:value>
     <sv:value>new-document</sv:value>
   </sv:property>
@@ -18,6 +21,11 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>en</sv:value>
   </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
   <sv:node sv:name="hippo:translation">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:translation</sv:value>
@@ -33,11 +41,15 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippo:harddocument</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
     </sv:property>
-    <sv:property sv:name="hippostd:foldertype" sv:type="String">
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0f3ded7a-6d1d-4f83-8643-c49c8a9ba4cd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
       <sv:value>new-document</sv:value>
     </sv:property>
@@ -47,13 +59,21 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>en</sv:value>
     </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
     <sv:node sv:name="toyota-suggests-putting-a-glass-of-water-on-your-dash">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippo:hardhandle</sv:value>
         <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6a8df380-e0d5-4938-a4b9-fe715feefaf5</sv:value>
       </sv:property>
       <sv:node sv:name="hippo:translation">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -70,13 +90,28 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>happyhippos:newsdocument</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippo:harddocument</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>af2be8c8-b7be-4406-bcc8-3562553ba98f</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:date" sv:type="Date">
+          <sv:value>2011-02-15T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:summary" sv:type="String">
+          <sv:value>For a 10% fuel consumption reduction...</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>Toyota suggests putting a glass of water on your dash (well, not really)</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011/toyota-suggests-putting-a-glass-of-water-on-your-dash</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -108,38 +143,34 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="happyhippos:date" sv:type="Date">
-          <sv:value>2011-02-15T00:00:00.000+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="happyhippos:summary" sv:type="String">
-          <sv:value>For a 10% fuel consumption reduction...</sv:value>
-        </sv:property>
-        <sv:property sv:name="happyhippos:title" sv:type="String">
-          <sv:value>Toyota suggests putting a glass of water on your dash (well, not really)</sv:value>
-        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
         <sv:node sv:name="happyhippos:body">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
             <sv:value>&lt;html&gt;
-              &lt;body&gt;
+&lt;body&gt;
 
-              &lt;p&gt;No, Toyota isn't trying to con you into buying a "water powered car". They
-              are simply trying to illustrate a simple point about fuel-efficient driving
-              that, sadly, too few people seem to know: If you drive smoothly and try to avoid
-              abrupt acceleration and deceleration as much as possible, you'll save fuel. It's
-              sound advice (of course, use your judgement and don't put saving fuel above
-              driving safely and sanely), and a good way to get a "feel" for that kind of
-              driving is to imagine that there's a glass of water on your dash (or use
-              Toyota's virtual water glass iPhone app) or an egg between the gas pedal and
-              your foot (sorry, no app for that). Even better if you have a fuel economy gauge
-              that shows you real time consumption. This doesn't mean you should drive slowly
-              in traffic, but when appropriate, you can save a lot of gas (and CO2) by being a
-              smooth operator.&lt;/p&gt;
+&lt;p&gt;No, Toyota isn't trying to con you into buying a "water powered car". They
+are simply trying to illustrate a simple point about fuel-efficient driving
+that, sadly, too few people seem to know: If you drive smoothly and try to avoid
+abrupt acceleration and deceleration as much as possible, you'll save fuel. It's
+sound advice (of course, use your judgement and don't put saving fuel above
+driving safely and sanely), and a good way to get a "feel" for that kind of
+driving is to imagine that there's a glass of water on your dash (or use
+Toyota's virtual water glass iPhone app) or an egg between the gas pedal and
+your foot (sorry, no app for that). Even better if you have a fuel economy gauge
+that shows you real time consumption. This doesn't mean you should drive slowly
+in traffic, but when appropriate, you can save a lot of gas (and CO2) by being a
+smooth operator.&lt;/p&gt;
 
-              &lt;/body&gt;
-              &lt;/html&gt;</sv:value>
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="happyhippos:image">
@@ -149,9 +180,9 @@
           <sv:property sv:name="hippo:docbase" sv:type="String">
             <sv:value>28dc4940-7562-48da-9c91-34711124462f</sv:value>
           </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String"/>
-          <sv:property sv:name="hippo:modes" sv:type="String"/>
-          <sv:property sv:name="hippo:values" sv:type="String"/>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
     </sv:node>
@@ -159,21 +190,39 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippo:hardhandle</sv:value>
         <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>525dc51d-4ec4-4c99-a5cd-2835437f52a5</sv:value>
       </sv:property>
       <sv:node sv:name="solar-power-the-sky-is-the-limit">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>happyhippos:newsdocument</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippo:harddocument</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d2c9c02e-b81d-4e7b-a720-576f4e32c979</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:date" sv:type="Date">
+          <sv:value>2011-02-11T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:summary" sv:type="String">
+          <sv:value>This week’s record-breaking night flight by the Solar Impulse aircraft has been widely acclaimed, but few of us are ever likely to fly in such a plane.</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>Solar power: the sky is the limit</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011/solar-power-the-sky-is-the-limit</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -205,58 +254,52 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="happyhippos:date" sv:type="Date">
-          <sv:value>2011-02-11T00:00:00.000+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="happyhippos:summary" sv:type="String">
-          <sv:value>This week’s record-breaking night flight by the Solar Impulse aircraft has been widely acclaimed,
-            but few of us are ever likely to fly in such a plane.
-          </sv:value>
-        </sv:property>
-        <sv:property sv:name="happyhippos:title" sv:type="String">
-          <sv:value>Solar power: the sky is the limit</sv:value>
-        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
         <sv:node sv:name="happyhippos:body">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
             <sv:value>&lt;html&gt;
-              &lt;body&gt;
+&lt;body&gt;
 
-              &lt;p&gt;Swiss adventurer Bertrand Piccard, the initiator of the project, pilot André
-              Borschberg, and the host of designers and developers who made the flight
-              possible may have entered the history books, but what does their achievement
-              mean in practical terms? &lt;br/&gt;
-              “I hope that in two years time at the next Green Aviation Show we shall be able
-              to give a prize to the hero of the day, Bertrand Piccard,” Gerard Feldzer,
-              director of the Air and Space Museum at Paris’ Le Bourget airport, told
-              swissinfo.ch &lt;br/&gt;
-              Feldzer, who has known Piccard for many years, is an expert on
-              environmentally-friendly aircraft. He points out though that Solar Impulse is
-              not the first plane of its type. &lt;br/&gt;
-              The Green Aviation Show awarded for example its 2010 prize to Eric Raymond – who
-              first crossed the United States in &lt;br/&gt;
-              a solar-powered plane 20 years ago. &lt;br/&gt;
-              The difference was that Raymond made his flight in one-hour hops, Feldzer
-              explained.&lt;/p&gt;
+&lt;p&gt;Swiss adventurer Bertrand Piccard, the initiator of the project, pilot André
+Borschberg, and the host of designers and developers who made the flight
+possible may have entered the history books, but what does their achievement
+mean in practical terms? &lt;br/&gt;
+“I hope that in two years time at the next Green Aviation Show we shall be able
+to give a prize to the hero of the day, Bertrand Piccard,” Gerard Feldzer,
+director of the Air and Space Museum at Paris’ Le Bourget airport, told
+swissinfo.ch &lt;br/&gt;
+Feldzer, who has known Piccard for many years, is an expert on
+environmentally-friendly aircraft. He points out though that Solar Impulse is
+not the first plane of its type. &lt;br/&gt;
+The Green Aviation Show awarded for example its 2010 prize to Eric Raymond – who
+first crossed the United States in &lt;br/&gt;
+a solar-powered plane 20 years ago. &lt;br/&gt;
+The difference was that Raymond made his flight in one-hour hops, Feldzer
+explained.&lt;/p&gt;
 
-              &lt;p&gt;&lt;strong&gt;Twice the size, ten times the problems&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Twice the size, ten times the problems&lt;/strong&gt;&lt;/p&gt;
 
-              &lt;p&gt;“The technique is no different, but Piccard’s achievement is to build a big
-              enough plane. When you double the size, that doesn’t mean you have twice the
-              number of problems. You have ten times the problems.” &lt;br/&gt;
-              On the one hand the structural challenge is much more complex – supporting the
-              giant wing, and transmitting and storing the energy, for example. &lt;br/&gt;
-              But a long flight is a human challenge too. &lt;br/&gt;
-              “You have to be able sit still, take tiny snatches of sleep… It’s like a space
-              flight, or even worse. You can’t move… Everything has to be within reach.”
-              &lt;br/&gt;
-              It would have been possible to fly a solar-powered drone across the Atlantic
-              long ago, Feldzer explained; having a person on board “changes everything”.&lt;/p&gt;
+&lt;p&gt;“The technique is no different, but Piccard’s achievement is to build a big
+enough plane. When you double the size, that doesn’t mean you have twice the
+number of problems. You have ten times the problems.” &lt;br/&gt;
+On the one hand the structural challenge is much more complex – supporting the
+giant wing, and transmitting and storing the energy, for example. &lt;br/&gt;
+But a long flight is a human challenge too. &lt;br/&gt;
+“You have to be able sit still, take tiny snatches of sleep… It’s like a space
+flight, or even worse. You can’t move… Everything has to be within reach.”
+&lt;br/&gt;
+It would have been possible to fly a solar-powered drone across the Atlantic
+long ago, Feldzer explained; having a person on board “changes everything”.&lt;/p&gt;
 
-              &lt;/body&gt;
-              &lt;/html&gt;</sv:value>
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="happyhippos:image">
@@ -266,9 +309,9 @@
           <sv:property sv:name="hippo:docbase" sv:type="String">
             <sv:value>87e86b9d-c074-46e6-883d-b4a812d81428</sv:value>
           </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String"/>
-          <sv:property sv:name="hippo:modes" sv:type="String"/>
-          <sv:property sv:name="hippo:values" sv:type="String"/>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
       <sv:node sv:name="hippo:translation">
@@ -287,21 +330,39 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippo:hardhandle</sv:value>
         <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ba21b1dd-25a7-47bf-9125-d0387e7b87ac</sv:value>
       </sv:property>
       <sv:node sv:name="pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>happyhippos:newsdocument</sv:value>
         </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippo:harddocument</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ede03650-79ab-4df5-a135-d8d2902064e2</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:date" sv:type="Date">
+          <sv:value>2011-02-24T00:00:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:summary" sv:type="String">
+          <sv:value>This week, the Public Broadcasting Service aired a NOVA program titled “Dimming the Earth”, which presented research by leading scientists on the complex systems of our global climate and human activity's effect on it. One of the largest interactions (or "inputs") humans have with the atmosphere is the ever-increasing use of fossil fuels. Consumption has risen 2% per year for this decade.</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>news/2011/pbs-show-asserts-greenhouse-gases-atmospheric-pollutants-dimming-future</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -333,45 +394,37 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="happyhippos:date" sv:type="Date">
-          <sv:value>2011-02-24T00:00:00.000+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="happyhippos:summary" sv:type="String">
-          <sv:value>This week, the Public Broadcasting Service aired a NOVA program titled “Dimming the Earth”, which
-            presented research by leading scientists on the complex systems of our global climate and human activity's
-            effect on it. One of the largest interactions (or "inputs") humans have with the atmosphere is the
-            ever-increasing use of fossil fuels. Consumption has risen 2% per year for this decade.
-          </sv:value>
-        </sv:property>
-        <sv:property sv:name="happyhippos:title" sv:type="String">
-          <sv:value>PBS show asserts greenhouse gases, atmospheric pollutants dimming future</sv:value>
-        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
         <sv:node sv:name="happyhippos:body">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
             <sv:value>&lt;html&gt;
-              &lt;body&gt;
+&lt;body&gt;
 
-              &lt;p&gt;This week, the Public Broadcasting Service aired a NOVA program titled
-              “Dimming the Earth”, which presented research by leading scientists on the
-              complex systems of our global climate and human activity's effect on it. One of
-              the largest interactions (or "inputs") humans have with the atmosphere is the
-              ever-increasing use of fossil fuels. Consumption has risen 2% per year for this
-              decade.&lt;/p&gt;
+&lt;p&gt;This week, the Public Broadcasting Service aired a NOVA program titled
+“Dimming the Earth”, which presented research by leading scientists on the
+complex systems of our global climate and human activity's effect on it. One of
+the largest interactions (or "inputs") humans have with the atmosphere is the
+ever-increasing use of fossil fuels. Consumption has risen 2% per year for this
+decade.&lt;/p&gt;
 
-              &lt;p&gt;Fossil fuels burnt in factories and automobiles send their waste into our
-              atmosphere in two forms. The first is CO2 and other greenhouse gases, which have
-              received substantial attention in the last few years because of the way they
-              trap heat in the atmosphere. The second is the tiny particles of sulfur dioxide,
-              soot and ash, which scientists call aerosols (basically smog). Research into
-              understanding the negative health effects of air pollution has resulted in the
-              development of catalytic converters for cars as well as devices to remove
-              particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
+&lt;p&gt;Fossil fuels burnt in factories and automobiles send their waste into our
+atmosphere in two forms. The first is CO2 and other greenhouse gases, which have
+received substantial attention in the last few years because of the way they
+trap heat in the atmosphere. The second is the tiny particles of sulfur dioxide,
+soot and ash, which scientists call aerosols (basically smog). Research into
+understanding the negative health effects of air pollution has resulted in the
+development of catalytic converters for cars as well as devices to remove
+particulate solids from industrial waste before it reaches the air.&lt;/p&gt;
 
-              &lt;/body&gt;
-              &lt;/html&gt;</sv:value>
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="happyhippos:image">
@@ -381,9 +434,9 @@
           <sv:property sv:name="hippo:docbase" sv:type="String">
             <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
           </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String"/>
-          <sv:property sv:name="hippo:modes" sv:type="String"/>
-          <sv:property sv:name="hippo:values" sv:type="String"/>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
       <sv:node sv:name="hippo:translation">
