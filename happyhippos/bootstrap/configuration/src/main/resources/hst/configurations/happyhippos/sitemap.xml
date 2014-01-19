@@ -3,7 +3,7 @@
     <sv:value>hst:sitemap</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodified" sv:type="Date">
-    <sv:value>2014-01-18T14:47:42.325+01:00</sv:value>
+    <sv:value>2014-01-19T23:07:03.218+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
     <sv:value>admin</sv:value>
@@ -103,8 +103,10 @@
         <sv:value>hst:sitemapitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/moviespage</sv:value>
+        <sv:value>hst:pages/moviepage</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
         <sv:value>${parent}/${1}</sv:value>
       </sv:property>

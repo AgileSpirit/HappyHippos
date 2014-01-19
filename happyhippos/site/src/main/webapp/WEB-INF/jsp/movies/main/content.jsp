@@ -5,6 +5,7 @@
 <%--@elvariable id="pages" type="java.util.Collection<java.lang.Integer>"--%>
 <%--@elvariable id="result" type="org.hippoecm.hst.content.beans.query.HstQueryResult"--%>
 
+[jsp/movies/main/content.jsp]
 <c:choose>
     <c:when test="${empty info}">
         <tag:pagenotfound/>
@@ -17,28 +18,23 @@
             <hst:headContribution keyHint="headTitle" element="${headTitle}"/>
         </c:if>
 
-        <h2>
-                ${fn:escapeXml(info.title)}
-            <c:if test="${not empty result.totalSize}"> Total results ${result.totalSize}</c:if>
-        </h2>
-
-        <c:forEach var="item" items="${result.hippoBeans}">
-            <hst:link var="link" hippobean="${item}"/>
-            <article class="well well-large">
-                <hst:cmseditlink hippobean="${item}"/>
-                <h3><a href="${link}">${fn:escapeXml(item.title)}</a></h3>
-                <c:if test="${hst:isReadable(item, 'date.time')}">
-                    <p class="badge badge-info">
-                        <fmt:formatDate value="${item.date.time}" type="both" dateStyle="medium"
-                                        timeStyle="short"/>
-                    </p>
-                </c:if>
-                <p>${fn:escapeXml(item.summary)}</p>
-            </article>
-        </c:forEach>
-
-        <!--if there are pages on the request, they will be printed by the tag:pages -->
-        <tag:pages pages="${pages}" page="${page}"/>
-
+        <div class="row ${fn:escapeXml(info.cssClass)}">
+            <h2>${fn:escapeXml(info.title)}</h2>
+            <c:forEach var="item" items="${result.hippoBeans}">
+                <div class="col-lg-4">
+                    <hst:link var="link" hippobean="${item}"/>
+                    <hst:cmseditlink hippobean="${item}"/>
+                    <c:if test="${hst:isReadable(item, 'poster.original')}">
+                        <hst:link var="img" hippobean="${item.poster.original}"/>
+                        <img src="${img}" title="${fn:escapeXml(item.poster.fileName)}"
+                             alt="${fn:escapeXml(item.poster.fileName)}"
+                             class="center-block"/>
+                    </c:if>
+                    <h2>${fn:escapeXml(item.title)}</h2>
+                    <p>${fn:escapeXml(item.summary)}</p>
+                    <p><a class="btn btn-primary" href="${link}" role="button">View details &raquo;</a></p>
+                </div>
+            </c:forEach>
+        </div>
     </c:otherwise>
 </c:choose>

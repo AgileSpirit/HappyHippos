@@ -68,13 +68,13 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>eb5e19fa-3ab6-4aba-92cb-8aeab0ddf805</sv:value>
+        <sv:value>38ae3585-d986-49d2-a647-50906e7989a2</sv:value>
       </sv:property>
       <sv:property sv:name="happyhippos:summary" sv:type="String">
-        <sv:value>Who we are.</sv:value>
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="happyhippos:title" sv:type="String">
-        <sv:value>About us</sv:value>
+        <sv:value>Pixar - Home</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -96,16 +96,16 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2010-01-21T12:34:11.055+02:00</sv:value>
+        <sv:value>2010-01-21T11:34:11.055+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2010-01-22T12:34:11.055+02:00</sv:value>
+        <sv:value>2014-01-19T23:06:28.058+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2011-02-15T14:58:39.642Z</sv:value>
+        <sv:value>2014-01-19T23:06:29.859+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>happyhippos-common-about-us-id</sv:value>
@@ -123,7 +123,209 @@
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>We are Hippo! Come and visit us at &lt;a href="http://www.onehippo.com" title="Hippo website"&gt;www.onehippo.com&lt;/a&gt;!</sv:value>
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Pixar Animation Studios, or simply Pixar (/ˈpɪksɑr/, stylized as PIXAR), is
+an American computer animation film studio based in Emeryville, California. The
+studio is best known for its CGI-animated feature films created with
+PhotoRealistic RenderMan, its own implementation of the industry-standard
+RenderMan image-rendering application programming interface used to generate
+high-quality images. Pixar began in 1979 as the Graphics Group, part of the
+computer division of Lucasfilm before its spin-out as a corporation in 1986 with
+funding by Apple Inc. co-founder Steve Jobs, who became its majority
+shareholder.[1] The Walt Disney Company bought Pixar in 2006 at a valuation of
+$7.4 billion, a transaction which made Jobs Disney's largest shareholder.&lt;/p&gt;
+
+&lt;p&gt;Pixar has produced fourteen feature films, beginning with Toy Story in 1995.
+Thirteen of the films have received both critical and financial success, with
+the notable exception being Cars 2, which, while commercially successful,
+received substantially less praise than Pixar's other productions.[2] All
+fourteen films have debuted with CinemaScore ratings of at least "A-",
+indicating a very positive reception with audiences.[3] The studio has also
+produced several short films. As of December 2013, its feature films have made
+over $8.5 billion worldwide,[4] with an average worldwide gross of $607 million
+per film.[5] Both Finding Nemo and Toy Story 3 are among the 50 highest-grossing
+films of all time, and all of Pixar's films are among the 50 highest-grossing
+animated films, with Toy Story 3 being the all-time highest, grossing over $1
+billion worldwide.&lt;/p&gt;
+
+&lt;p&gt;The studio has earned 27 Academy Awards, seven Golden Globe Awards, and
+eleven Grammy Awards, among many other awards and acknowledgments. Since the
+award's inauguration in 2001, most of Pixar's films have been nominated for the
+Academy Award for Best Animated Feature, with seven winning: Finding Nemo, The
+Incredibles, Ratatouille, WALL-E, Up, Toy Story 3, and Brave (with Monsters Inc.
+and Cars being the only two just being nominated for the award). Up and Toy
+Story 3 were the second and third animated films to be nominated for the Academy
+Award for Best Picture (the first being Beauty and the Beast). On September 6,
+2009, executives John Lasseter, Brad Bird, Pete Docter, Andrew Stanton, and Lee
+Unkrich were presented with the Golden Lion for Lifetime Achievement by the
+Biennale Venice Film Festival. The award was presented by Lucasfilm founder
+George Lucas.&lt;/p&gt;
+&lt;h2&gt;History &lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Early history &lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Pixar was founded as The Graphics Group, which was one third of the Computer
+Division of Lucasfilm that was launched in 1979 with the hiring of Dr. Ed
+Catmull from the New York Institute of Technology (NYIT), where he was in charge
+of the Computer Graphics Lab (CGL). At NYIT, the researchers pioneered many of
+the CG foundation techniques—in particular the invention of the "alpha channel"
+(by Catmull and Alvy Ray Smith); years later the CGL produced an experimental
+film called The Works. After moving to Lucasfilm, the team worked on creating
+the precursor to RenderMan, called REYES (for "renders everything you ever
+saw"); and developed a number of critical technologies for CG—including
+"particle effects" and various animation tools.&lt;/p&gt;
+
+&lt;p&gt;In 1982, the team began working on film sequences with Industrial Light &amp;amp;
+Magic on special effects. After years of research, and key milestones in films
+such as the Genesis Effect in Star Trek II: The Wrath of Khan and the Stained
+Glass Knight in Young Sherlock Holmes, the group, which numbered 40 individuals
+back then,[1] was spun out as a corporation in February 1986 with investment by
+Steve Jobs shortly after he left Apple Computer.[1] Jobs paid $5 million to
+George Lucas for technology rights and put them and $5 million cash as capital
+into the company. A factor contributing to Lucas' sale was an increase in cash
+flow difficulties following his 1983 divorce, which coincided with the sudden
+dropoff in revenues from Star Wars licenses following the release of Return of
+the Jedi. The newly independent company was headed by Dr. Edwin Catmull as
+President and Dr. Alvy Ray Smith as Executive Vice President. They were joined
+on the Board of Directors by Steve Jobs who was Chairman.&lt;/p&gt;
+
+&lt;p&gt;Initially, while awaiting the consequences of Moore's law, that would reduce
+the cost of computing a film, Pixar was a high-end computer hardware company
+whose core product was the Pixar Image Computer, a system primarily sold to
+government agencies and the medical community. One of the buyers of Pixar Image
+Computers was Walt Disney Studios, which was using the device as part of their
+secretive CAPS project, using the machine and custom software (written by Pixar)
+to migrate the laborious ink and paint part of the 2-D animation process to a
+more automated and thus efficient method. The Image Computer never sold well. In
+a bid to drive sales of the system, Pixar employee John Lasseter—who had long
+been creating short demonstration animations, such as Luxo Jr., to show off the
+device's capabilities—premiered his creations at SIGGRAPH, the computer graphics
+industry's largest convention, to great fanfare.&lt;/p&gt;
+
+&lt;p&gt;As poor sales of Pixar's computers threatened to put the company out of
+business, Jobs invested more and more money and took more and more ownership
+away from the management and employees until after several years he owned
+essentially all the company for a total investment of $50 million. Lasseter's
+animation department began producing computer-animated commercials for outside
+companies. Early successes included campaigns for Tropicana, Listerine, and Life
+Savers. In April 1990 Pixar sold its hardware division, including all
+proprietary hardware technology and imaging software, to Vicom Systems, and
+transferred 18 of Pixar's approximately 100 employees. The same year Pixar moved
+from San Rafael to Richmond, California. During this period, Pixar continued its
+successful relationship with Walt Disney Feature Animation, a studio whose
+corporate parent would ultimately become its most important partner. In 1991,
+after a tough start of the year when about 30 employees in the company's
+computer department had to go (including the company's president, Chuck
+Kolstad), which reduced the total number of employees to just 42, essentially
+its original number, Pixar made a $26 million deal with Disney to produce three
+computer-animated feature films, the first of which was Toy Story. At that
+point, the software programmers, who were doing RenderMan and CAPS, and
+Lasseter’s animation department, who made television commercials, some 3-D
+Stings for Nickelodeon, and a few shorts for Sesame Street, was all that was
+left of Pixar.&lt;/p&gt;
+
+&lt;p&gt;Despite the total income of these products, the company was still losing
+money, and Jobs, still chairman of the board and now the full owner, often
+considered selling it. Even as late as 1994, Jobs contemplated selling Pixar to
+other companies, among them Microsoft. Only after learning from New York critics
+that Toy Story was probably going to be a success and confirming that Disney
+would distribute it for the 1995 Christmas season did he decide to give Pixar
+another chance. He also began then for the first time to take an active direct
+leadership role in the company, making himself its CEO. The film went on to
+gross more than $361 million worldwide. Later that year, Pixar held its initial
+public offering on November 29, 1995, and the company's stock was priced at
+US$22 per share.&lt;/p&gt;
+
+&lt;p&gt;Pixar built a new studio in Emeryville which opened in November 2000.&lt;/p&gt;
+&lt;h3&gt;Disney &lt;/h3&gt;
+&lt;p&gt;Pixar and Disney had disagreements after the production of Toy Story 2.
+Originally intended as a straight-to-video release (and thus not part of Pixar's
+three-picture deal), the film was eventually upgraded to a theatrical release
+during production. Pixar demanded that the film then be counted toward the
+three-picture agreement, but Disney refused. Though profitable for both, Pixar
+later complained that the arrangement was not equitable. Pixar was responsible
+for creation and production, while Disney handled marketing and distribution.
+Profits and production costs were split 50-50, but Disney exclusively owned all
+story and sequel rights and also collected a distribution fee. The lack of story
+and sequel rights was perhaps the most onerous aspect to Pixar and set the stage
+for a contentious relationship.&lt;/p&gt;
+
+&lt;p&gt;The two companies attempted to reach a new agreement in early 2004. The new
+deal would be only for distribution, as Pixar intended to control production and
+own the resulting film properties themselves. The company also wanted to finance
+their films on their own and collect 100 percent of the profits, paying Disney
+only the 10 to 15 percent distribution fee. More importantly, as part of any
+distribution agreement with Disney, Pixar demanded control over films already in
+production under their old agreement, including The Incredibles and Cars. Disney
+considered these conditions unacceptable, but Pixar would not concede.&lt;/p&gt;
+
+&lt;p&gt;Disagreements between Steve Jobs and then Disney Chairman and CEO Michael
+Eisner made the negotiations more difficult than they otherwise might have been.
+They broke down completely in mid-2004, with Jobs declaring that Pixar was
+actively seeking partners other than Disney. Despite this announcement, Pixar
+did not enter negotiations with other distributors. After a lengthy hiatus,
+negotiations between the two companies resumed following the departure of Eisner
+from Disney in September 2005. In preparation for potential fallout between
+Pixar and Disney, Jobs announced in late 2004 that Pixar would no longer release
+movies at the Disney-dictated November time frame, but during the more lucrative
+early summer months. This would also allow Pixar to release DVDs for their major
+releases during the Christmas shopping season. An added benefit of delaying Cars
+was to extend the time frame remaining on the Pixar-Disney contract to see how
+things would play out between the two companies.&lt;/p&gt;
+
+&lt;p&gt;Pending the Disney acquisition of Pixar, the two companies created a
+distribution deal for the intended 2007 release of Ratatouille, in case the
+acquisition fell through, to ensure that this one film would still be released
+through Disney's distribution channels. (In contrast to the earlier Disney/Pixar
+deal, Ratatouille was to remain a Pixar property and Disney would have received
+only a distribution fee.) The completion of Disney's Pixar acquisition, however,
+nullified this distribution arrangement.&lt;/p&gt;
+
+&lt;p&gt;Disney had agreed to buy Pixar for approximately $7.4 billion in an all-stock
+deal. Following Pixar shareholder approval, the acquisition was completed May 5,
+2006. The transaction catapulted Steve Jobs, who was the majority shareholder of
+Pixar with 50.1%, to Disney's largest individual shareholder with 7% and a new
+seat on its board of directors. Jobs' new Disney holdings exceeded holdings
+belonging to ex-CEO Michael Eisner, the previous top shareholder, who still held
+1.7%; and Disney Director Emeritus Roy E. Disney, who held almost 1% of the
+corporation's shares.&lt;/p&gt;
+
+&lt;p&gt;As part of the deal, John Lasseter, by then Executive Vice President, became
+Chief Creative Officer (reporting to President and CEO Robert Iger and
+consulting with Disney Director Roy Disney) of both Pixar and Walt Disney
+Animation Studios, as well as the Principal Creative Adviser at Walt Disney
+Imagineering, which designs and builds the company's theme parks. Catmull
+retained his position as President of Pixar, while also becoming President of
+Walt Disney Animation Studios, reporting to Bob Iger and Dick Cook, chairman of
+Walt Disney Studio Entertainment. Steve Jobs' position as Pixar's Chairman and
+Chief Executive Officer was also removed, and instead he took a place on the
+Disney board of directors.&lt;/p&gt;
+
+&lt;p&gt;Lasseter and Catmull's oversight of both the Disney and Pixar studios did not
+mean that the two studios were merging, however. In fact, additional conditions
+were laid out as part of the deal to ensure that Pixar remained a separate
+entity, a concern that analysts had expressed about the Disney deal. Some of
+those conditions were that Pixar HR policies would remain intact, including the
+lack of employment contracts. Also, the Pixar name was guaranteed to continue,
+and the studio would remain in its current Emeryville, California location with
+the "Pixar" sign. Finally, branding of films made post-merger would be
+"Disney•Pixar" (beginning with Cars).&lt;/p&gt;
+
+&lt;p&gt;Jim Morris, producer of WALL-E, became general manager of Pixar. In this new
+position, Morris took charge of the day-to-day running of the studio facilities
+and products.&lt;/p&gt;
+&lt;h3&gt;Expansion &lt;/h3&gt;
+&lt;p&gt;On April 20, 2010, Pixar Animation Studios opened a new studio in the
+downtown area of Vancouver, British Columbia, Canada. The roughly 2,000 square
+meters studio primarily produced shorts and TV specials based on characters from
+Pixar's feature films. The studio's first production was the Cars Toons episode,
+"Air Mater." In October 2013, the studio was closed.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -139,6 +341,17 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>5a4610b3-a843-4beb-9218-35639ace7c1e</sv:value>
     </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Movies Page</sv:value>
+      </sv:property>
+    </sv:node>
     <sv:node sv:name="movies-page">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>happyhippos:textdocument</sv:value>
@@ -148,13 +361,13 @@
         <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>31839a61-483d-4ae7-a012-19731895fec4</sv:value>
+        <sv:value>b3d2bea4-e468-4e1a-8493-90a3b73aa759</sv:value>
       </sv:property>
       <sv:property sv:name="happyhippos:summary" sv:type="String">
         <sv:value>Lorem ipsum dolor sit amet</sv:value>
       </sv:property>
       <sv:property sv:name="happyhippos:title" sv:type="String">
-        <sv:value>Movies Page</sv:value>
+        <sv:value>Pixar - The movies</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -179,13 +392,13 @@
         <sv:value>2014-01-18T02:22:19.824+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-01-18T02:22:40.884+01:00</sv:value>
+        <sv:value>2014-01-20T00:45:29.649+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-01-18T02:22:42.699+01:00</sv:value>
+        <sv:value>2014-01-20T00:45:46.409+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>9673ba50-7252-41d3-8eed-ad1fa2cfe2f1</sv:value>
@@ -212,17 +425,6 @@
 &lt;/html&gt;</sv:value>
         </sv:property>
       </sv:node>
-    </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value>fr</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Movies Page</sv:value>
-      </sv:property>
     </sv:node>
   </sv:node>
   <sv:node sv:name="homepage">
