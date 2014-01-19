@@ -26,7 +26,13 @@
             <hst:link var="link" hippobean="${item}"/>
             <article class="well well-large">
                 <hst:cmseditlink hippobean="${item}"/>
-                <h3><a href="${link}">${fn:escapeXml(item.name)}</a></h3>
+                <h3><a href="${link}">${fn:escapeXml(item.title)}</a></h3>
+                <c:if test="${hst:isReadable(item, 'date.time')}">
+                    <p class="badge badge-info">
+                        <fmt:formatDate value="${item.date.time}" type="both" dateStyle="medium"
+                                        timeStyle="short"/>
+                    </p>
+                </c:if>
                 <p>${fn:escapeXml(item.summary)}</p>
             </article>
         </c:forEach>

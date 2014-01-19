@@ -1,25 +1,30 @@
-<!-- Detail of one Species -->
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-<%--@elvariable id="document" type="com.agile.spirit.beans.SpeciesDocument"--%>
+<%--@elvariable id="document" type="com.agile.spirit.beans.NewsDocument"--%>
 
 <c:choose>
     <c:when test="${empty document}">
         <tag:pagenotfound/>
     </c:when>
     <c:otherwise>
-        <c:if test="${not empty document.name}">
+        <c:if test="${not empty document.title}">
             <hst:element var="headTitle" name="title">
-                <c:out value="${document.name}"/>
+                <c:out value="${document.title}"/>
             </hst:element>
             <hst:headContribution keyHint="headTitle" element="${headTitle}"/>
         </c:if>
 
-        <article>
+        <article class="well well-large">
             <hst:cmseditlink hippobean="${document}"/>
             <header>
-                <h1>${fn:escapeXml(document.name)}</h1>
+                <h2>${fn:escapeXml(document.title)}</h2>
+                <c:if test="${hst:isReadable(document, 'date.time')}">
+                    <p class="badge badge-info">
+                        <fmt:formatDate value="${document.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
+                    </p>
+                </c:if>
+                <p>${fn:escapeXml(document.summary)}</p>
             </header>
-            <hst:html hippohtml="${document.description}"/>
+            <hst:html hippohtml="${document.html}"/>
             <c:if test="${hst:isReadable(document, 'image.original')}">
                 <hst:link var="img" hippobean="${document.image.original}"/>
                 <figure>
