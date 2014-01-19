@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="hst:channels" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:channels">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:channels</sv:value>
   </sv:property>
@@ -10,6 +9,10 @@
     <sv:property sv:name="hst:channelinfoclass" sv:type="String">
       <sv:value>com.agile.spirit.channels.WebsiteInfo</sv:value>
     </sv:property>
+    <sv:property sv:name="hst:defaultdevice" sv:type="String">
+      <sv:value>default</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:devices" sv:type="String" sv:multiple="true"/>
     <sv:property sv:name="hst:name" sv:type="String">
       <sv:value>Happy Hippos</sv:value>
     </sv:property>
@@ -21,7 +24,7 @@
         <sv:value>hst:channelinfo</sv:value>
       </sv:property>
       <sv:property sv:name="headerName" sv:type="String">
-        <sv:value>HST Website</sv:value>
+        <sv:value>Pixar Animation Studios</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

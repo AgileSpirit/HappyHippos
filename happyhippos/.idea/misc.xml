@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/cms" />
+    <file type="web" url="file://$PROJECT_DIR$/greeting" />
     <file type="web" url="file://$PROJECT_DIR$/site" />
   </component>
   <component name="IdProvider" IDEtalkID="436C8C7EE5AB44213B6BE359CFCF00A9" />

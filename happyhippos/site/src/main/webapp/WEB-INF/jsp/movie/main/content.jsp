@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-<%--@elvariable id="document" type="com.agile.spirit.beans.NewsDocument"--%>
+<%--@elvariable id="document" type="com.agile.spirit.beans.MovieDocument"--%>
 
 <c:choose>
     <c:when test="${empty document}">
@@ -13,26 +13,13 @@
             <hst:headContribution keyHint="headTitle" element="${headTitle}"/>
         </c:if>
 
-        <article class="well well-large">
+        <article>
             <hst:cmseditlink hippobean="${document}"/>
             <header>
-                <h2>${fn:escapeXml(document.title)}</h2>
-                <c:if test="${hst:isReadable(document, 'date.time')}">
-                    <p class="badge badge-info">
-                        <fmt:formatDate value="${document.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
-                    </p>
-                </c:if>
+                <h2>${fn:escapeXml(document.title)}(${(document.year)})</h2>
                 <p>${fn:escapeXml(document.summary)}</p>
             </header>
-            <hst:html hippohtml="${document.html}"/>
-            <c:if test="${hst:isReadable(document, 'image.original')}">
-                <hst:link var="img" hippobean="${document.image.original}"/>
-                <figure>
-                    <img src="${img}" title="${fn:escapeXml(document.image.fileName)}"
-                         alt="${fn:escapeXml(document.image.fileName)}"/>
-                    <figcaption>${fn:escapeXml(document.image.description)}</figcaption>
-                </figure>
-            </c:if>
+            <hst:html hippohtml="${document.description}"/>
         </article>
 
     </c:otherwise>

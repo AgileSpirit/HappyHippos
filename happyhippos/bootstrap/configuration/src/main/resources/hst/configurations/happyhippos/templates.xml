@@ -3,7 +3,7 @@
     <sv:value>hst:templates</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodified" sv:type="Date">
-    <sv:value>2014-01-17T02:57:39.887+01:00</sv:value>
+    <sv:value>2014-01-18T01:53:35.614+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
     <sv:value>admin</sv:value>
@@ -20,16 +20,20 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:template</sv:value>
     </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:description" sv:type="String">
+      <sv:value/>
+    </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
       <sv:value>jsp/home/main/content.jsp</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="home.main.species">
+  <sv:node sv:name="home.main.movies">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/home/main/species.jsp</sv:value>
+      <sv:value>jsp/home/main/movies.jsp</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="layout.webpage">
@@ -38,6 +42,22 @@
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
       <sv:value>jsp/layout/webpage.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="movie.main.content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/movie/main/content.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="movies.main.content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/movies/main/content.jsp</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="news.main.content">
@@ -136,22 +156,6 @@
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
       <sv:value>jsp/standard/footer.jsp</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="speciesdetails.main.content">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:template</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/speciesdetails/main/content.jsp</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="speciesoverview.main.content">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:template</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/speciesoverview/main/content.jsp</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

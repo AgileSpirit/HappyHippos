@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/greeting/greeting.iml" filepath="$PROJECT_DIR$/greeting/greeting.iml" />
       <module fileurl="file://$PROJECT_DIR$/happyhippos.iml" filepath="$PROJECT_DIR$/happyhippos.iml" />
       <module fileurl="file://$PROJECT_DIR$/bootstrap/happyhippos-bootstrap.iml" filepath="$PROJECT_DIR$/bootstrap/happyhippos-bootstrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/bootstrap/configuration/happyhippos-bootstrap-configuration.iml" filepath="$PROJECT_DIR$/bootstrap/configuration/happyhippos-bootstrap-configuration.iml" />

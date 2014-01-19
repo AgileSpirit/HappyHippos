@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="greeting" />
         <module name="happyhippos-bootstrap-configuration" />
         <module name="happyhippos-bootstrap-content" />
         <module name="happyhippos-cms" />
@@ -29,6 +30,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="greeting" target="1.6" />
       <module name="happyhippos" target="1.6" />
       <module name="happyhippos-bootstrap" target="1.6" />
       <module name="happyhippos-bootstrap-configuration" target="1.6" />

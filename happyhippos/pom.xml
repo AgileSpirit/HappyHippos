@@ -2,6 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <modules>
+    <module>greeting</module>
+  </modules>
 
   <parent>
     <groupId>org.onehippo.cms7</groupId>
@@ -229,6 +232,13 @@
                     <type>war</type>
                     <properties>
                       <context>/site</context>
+                    </properties>
+                  </deployable>
+                  <deployable>
+                    <location>${project.basedir}/greeting/target/greeting.war</location>
+                    <type>war</type>
+                    <properties>
+                      <context>/greeting</context>
                     </properties>
                   </deployable>
                 </deployables>

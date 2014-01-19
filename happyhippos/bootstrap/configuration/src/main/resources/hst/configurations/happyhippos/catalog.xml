@@ -3,7 +3,7 @@
     <sv:value>hst:catalog</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodified" sv:type="Date">
-    <sv:value>2014-01-16T23:47:57.735+01:00</sv:value>
+    <sv:value>2014-01-18T01:53:35.625+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
     <sv:value>admin</sv:value>
@@ -69,6 +69,31 @@
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
         <sv:value>home.main.species</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="movies">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.agile.spirit.components.ListView</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:description" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/catalog-list.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Movies</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>home.main.movies</sv:value>
       </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>HST.Item</sv:value>

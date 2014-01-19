@@ -9,17 +9,18 @@
     <c:otherwise>
         <hr>
         <div class="row ${fn:escapeXml(info.cssClass)}">
+            <h2>${fn:escapeXml(info.title)}</h2>
             <c:forEach var="item" items="${result.hippoBeans}">
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4">
                     <hst:link var="link" hippobean="${item}"/>
                     <hst:cmseditlink hippobean="${item}"/>
-                    <c:if test="${hst:isReadable(item, 'image.original')}">
-                        <hst:link var="img" hippobean="${item.image.original}"/>
-                            <img src="${img}" title="${fn:escapeXml(item.image.fileName)}"
-                                 alt="${fn:escapeXml(item.image.fileName)}"
-                                 class="center-block img-circle"/>
+                    <c:if test="${hst:isReadable(item, 'poster.original')}">
+                        <hst:link var="img" hippobean="${item.poster.original}"/>
+                            <img src="${img}" title="${fn:escapeXml(item.poster.fileName)}"
+                                 alt="${fn:escapeXml(item.poster.fileName)}"
+                                 class="center-block"/>
                     </c:if>
-                    <h2>${fn:escapeXml(item.name)}</h2>
+                    <h2>${fn:escapeXml(item.title)}</h2>
                     <p>${fn:escapeXml(item.summary)}</p>
                     <p><a class="btn btn-primary" href="${link}" role="button">View details &raquo;</a></p>
                 </div>

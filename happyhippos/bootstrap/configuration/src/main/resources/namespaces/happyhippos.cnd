@@ -4,7 +4,19 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
+[happyhippos:banner] > hippo:compound, hippostd:relaxed
+  orderable
+
+[happyhippos:bannercompound] > hippo:compound, hippostd:relaxed
+  orderable
+
 [happyhippos:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[happyhippos:homepagedocument] > happyhippos:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[happyhippos:moviedocument] > happyhippos:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
 [happyhippos:newsdocument] > happyhippos:basedocument, hippostd:relaxed

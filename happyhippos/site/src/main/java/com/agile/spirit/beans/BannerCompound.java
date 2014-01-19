@@ -3,15 +3,15 @@ package com.agile.spirit.beans;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.*;
 
-@Node(jcrType = "happyhippos:banner")
-public class BannerCompound extends BaseDocument {
+@Node(jcrType = "happyhippos:bannercompound")
+public class BannerCompound extends HippoItem {
 
   public String getTitle() {
     return getProperty("happyhippos:title");
   }
 
-  public String getSummary() {
-    return getProperty("happyhippos:summary");
+  public String getText() {
+    return getProperty("happyhippos:text");
   }
 
   /**
@@ -21,6 +21,10 @@ public class BannerCompound extends BaseDocument {
    */
   public HippoGalleryImageSetBean getImage() {
     return getLinkedBean("happyhippos:image", HippoGalleryImageSetBean.class);
+  }
+
+  public HippoBean getLink() {
+    return getLinkedBean("happyhippos:link", HippoBean.class);
   }
 
 }

@@ -12,10 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- Twitter Bootstrap -->
-    <hst:link var="bootstrapCss" path="/css/bootstrap.min.css"/>
+    <hst:link var="bootstrapCss" path="/css/bootstrap.css"/>
     <link rel="stylesheet" href="${bootstrapCss}" type="text/css"/>
-    <hst:link var="bootstrapThemeCss" path="/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="${bootstrapThemeCss}" type="text/css"/>
+
+    <hst:link var="carouselCss" path="/css/carousel.css"/>
+    <link rel="stylesheet" href="${carouselCss}" type="text/css"/>
 
     <hst:link var="styleCss" path="/css/style.css"/>
     <link rel="stylesheet" href="${styleCss}" type="text/css"/>
@@ -27,8 +28,14 @@
 
 <hst:headContributions categoryIncludes="scripts" xhtml="true"/>
 
-<hst:link var="bootstrapJs" path="/js/bootstrap.min.css"/>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<hst:link var="bootstrapJs" path="/js/bootstrap.min.js"/>
 <script src="${bootstrapJs}"></script>
+<hst:link var="holderJs" path="/js/holder.js"/>
+<script src="${holderJs}"></script>
 
 </body>
 </html>

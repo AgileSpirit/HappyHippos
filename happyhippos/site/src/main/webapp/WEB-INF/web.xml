@@ -87,7 +87,7 @@
     </init-param>
     <init-param>
       <param-name>suffixExclusions</param-name>
-      <param-value>.jsp, .ftl, .FTL</param-value>
+      <param-value>.jsp, .ftl, .FTL, .eot, .svg, .ttf, .woff</param-value>
     </init-param>
     <!--
       HST Application Context Namespace Prefix. This should be unique

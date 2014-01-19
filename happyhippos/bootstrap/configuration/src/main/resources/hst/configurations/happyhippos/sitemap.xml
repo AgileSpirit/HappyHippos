@@ -3,7 +3,7 @@
     <sv:value>hst:sitemap</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodified" sv:type="Date">
-    <sv:value>2014-01-17T02:10:21.014+01:00</sv:value>
+    <sv:value>2014-01-18T14:47:42.325+01:00</sv:value>
   </sv:property>
   <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
     <sv:value>admin</sv:value>
@@ -15,6 +15,8 @@
     <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
       <sv:value>hst:pages/home</sv:value>
     </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
     <sv:property sv:name="hst:relativecontentpath" sv:type="String">
       <sv:value>common/homepage</sv:value>
     </sv:property>
@@ -63,23 +65,35 @@
       </sv:property>
     </sv:node>
   </sv:node>
-  <sv:node sv:name="species">
+  <sv:node sv:name="search">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:sitemapitem</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-      <sv:value>hst:pages/speciesoverview</sv:value>
+      <sv:value>hst:pages/search</sv:value>
     </sv:property>
+  </sv:node>
+  <sv:node sv:name="movies">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/moviespage</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
     <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-      <sv:value>species</sv:value>
+      <sv:value>common/movies-page</sv:value>
     </sv:property>
     <sv:node sv:name="_any_.html">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemapitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/speciesdetailspage</sv:value>
+        <sv:value>hst:pages/moviepage</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
         <sv:value>${parent}/${1}</sv:value>
       </sv:property>
@@ -89,22 +103,12 @@
         <sv:value>hst:sitemapitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/speciesoverview</sv:value>
+        <sv:value>hst:pages/moviespage</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
-      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
         <sv:value>${parent}/${1}</sv:value>
       </sv:property>
     </sv:node>
-  </sv:node>
-  <sv:node sv:name="search">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:sitemapitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-      <sv:value>hst:pages/search</sv:value>
-    </sv:property>
   </sv:node>
   <sv:node sv:name="_any_">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">

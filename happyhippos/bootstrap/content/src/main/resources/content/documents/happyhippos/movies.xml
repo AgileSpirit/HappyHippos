@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="movies">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>a5a5b6ef-68d6-41e2-bed4-2f84196a40cf</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>e9f51d02-ce5b-4415-a39e-e321f3692a62</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>fr</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Movies</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="ratatouille">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>afdf86b1-650d-4f22-bec8-00fbbc03b2c4</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Ratatouille</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="ratatouille">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>da1faa44-2f0a-4377-871e-6969f79eaf00</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>With dreams of becoming a chef, a culinary genius in the form of a mouse, makes an unusual alliance with a young kitchen worker at a famed restaurant.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Ratatouille</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2007</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/ratatouille</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:47:51.486+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:08:12.014+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:08:14.181+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>6eb3a5df-b4d5-4a1e-8f4e-3983ce37731f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Ratatouille is a 2007 American computer-animated comedy film produced by
+Pixar Animation Studios and released by Walt Disney Pictures. It is the eighth
+film produced by Pixar, and was co-written and directed by Brad Bird, who took
+over from Jan Pinkava in 2005. The title refers to a French dish, "ratatouille",
+which is served at the end of the film, and is also a play on words about the
+species of the main character. The film stars the voices of Patton Oswalt as
+Remy, an anthropomorphic rat who is interested in cooking; Lou Romano as
+Linguini, a young garbage boy who befriends Remy; Ian Holm as Skinner, the head
+chef of Auguste Gusteau's restaurant; Janeane Garofalo as Colette, a rôtisseur
+at Gusteau's restaurant; Peter O'Toole as Anton Ego, a restaurant critic; Brian
+Dennehy as Django, Remy's father and leader of his clan; Peter Sohn as Emile,
+Remy's older brother; and Brad Garrett as Auguste Gusteau, a recently deceased
+chef. The plot follows Remy, who dreams of becoming a chef and tries to achieve
+his goal by forming an alliance with a Parisian restaurant's garbage boy.&lt;/p&gt;
+
+&lt;p&gt;Development of Ratatouille began in 2001 when Pinkava wrote the original
+concepts of the film. In 2005, Bird was approached to direct the film and
+revised the story. Bird and some of the film's crew members also visited Paris
+for inspiration. To create the food animations used in the film, the crew
+consulted chefs from both France and the United States. Bird also interned at
+Thomas Keller's French Laundry restaurant, where Keller developed the confit
+byaldi, a dish used in the film. Ratatouille premiered on June 22, 2007 at the
+Kodak Theatre in Los Angeles, California, and had its general release on June
+29, 2007 in the United States. The film grossed $623.7 million at the box office
+and received critical acclaim. The film later won the Academy Award for Best
+Animated Feature, among other honors.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>ae9bd0a3-d31f-41fd-b1f5-ece5fc7c0752</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="cars">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>de781acd-6e68-4f67-ad3b-e4043b76789f</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Cars</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="cars">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>df0a625f-8814-45dc-89c7-3e5271e91ced</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Cars</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2006</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/cars</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:49:03.438+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:08:35.669+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:08:37.710+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ad83a28f-24f6-48a3-a8ce-4679e4ad0bc8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Cars is a 2006 American computer-animated comedy-adventure sports film
+produced by Pixar Animation Studios, and directed and co-written by John
+Lasseter and released by Walt Disney Pictures. It is Pixar's final,
+independently-produced motion picture before its purchase by Disney. Set in a
+world populated entirely by anthropomorphic cars and other vehicles, it features
+voices by Paul Newman (in his final non-documentary feature), Owen Wilson, Larry
+the Cable Guy, Bonnie Hunt, Tony Shalhoub, Cheech Marin, Michael Wallis, George
+Carlin, Paul Dooley, Jenifer Lewis, Guido Quaroni, Michael Keaton, Katherine
+Helmond, and John Ratzenberger as well as voice cameos by several celebrities
+including Jeremy Piven, Jeremy Clarkson, Richard Petty, Dale Earnhardt, Jr., Bob
+Costas, Darrell Waltrip, Jay Leno, Michael Schumacher, Tom and Ray Magliozzi
+from NPR's Car Talk, and Mario Andretti. The film is also the second Pixar
+film—after A Bug's Life—to have an entirely non-human cast. The film was
+accompanied by the short One Man Band for its theatrical and home media
+releases.&lt;/p&gt;
+
+&lt;p&gt;Cars premiered on May 26, 2006 at Lowe's Motor Speedway in Concord, North
+Carolina, and was released on June 9, 2006, to positive reviews. It was
+nominated for two Academy Awards, including Best Animated Feature, and won the
+Golden Globe Award for Best Animated Feature Film. It was released on DVD
+November 7, 2006 and on Blu-ray Disc in late 2007. Related merchandise,
+including scale models of several of the cars, broke records for retail sales of
+merchandise based on a Disney·Pixar film,[2] bringing an estimated $10 billion
+in 5 years since the film's release.[3] The film was dedicated to Joe Ranft, who
+was killed in a car accident during the film's production.&lt;/p&gt;
+
+&lt;p&gt;A sequel, Cars 2, was released on June 24, 2011,[4] and a spin-off, Planes,
+produced by DisneyToon Studios, was released on August 9, 2013.[5] A series of
+short animated films, named Cars Toons, has been airing since 2008.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>143bb916-1b8c-4801-b53f-fedc20203a30</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="wall-e">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ba2ec0e2-c3e4-4a86-8c26-9bcc4f044c89</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>WALL-E</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="wall-e">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c0fd582c-12d5-4aa1-8c04-29b93f310129</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>In the distant future, a small waste collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>WALL-E</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2008</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/wall-e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:49:57.347+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:08:56.875+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:08:58.965+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>94b886d3-712f-4571-b0ee-8e920d71ac8c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;WALL-E (stylized with an interpunct as WALL·E) is a 2008 American CGI
+science-fiction romantic comedy film produced by Pixar Animation Studios and
+directed by Andrew Stanton. The story follows a robot named WALL-E, who is
+designed to clean up a waste-covered Earth far in the future. He falls in love
+with another robot named EVE, who also has a programmed task, and follows her
+into outer space on an adventure that changes the destiny of both his kind and
+humanity. Both robots exhibit an appearance of free will and emotions similar to
+humans, which develop further as the film progresses.&lt;/p&gt;
+
+&lt;p&gt;After directing Finding Nemo, Stanton felt Pixar had created believable
+simulations of underwater physics and was willing to direct a film set largely
+in space. Most of the characters do not have actual human voices, but instead
+communicate with body language and robotic sounds, designed by Ben Burtt, that
+resemble voices. It is also Pixar's first animated feature with segments
+featuring live-action characters.&lt;/p&gt;
+
+&lt;p&gt;Walt Disney Pictures released WALL-E in the United States and Canada on June
+27, 2008. It grossed $23.2 million on its opening day, and $63.1 million during
+its opening weekend in 3,992 theaters, ranking number one at the box office.
+This ranks as the fifth highest-grossing opening weekend for a Pixar film.
+Following Pixar tradition, WALL-E was paired with a short film, Presto, for its
+theatrical release.&lt;/p&gt;
+
+&lt;p&gt;WALL-E was met with critical acclaim, scoring an approval rating of 96% on
+the review aggregator Rotten Tomatoes. It grossed $521.3 million worldwide, won
+the 2008 Golden Globe Award for Best Animated Feature Film, the 2009 Hugo Award
+for Best Dramatic Presentation, Long Form,[3] the final Nebula Award for Best
+Script,[4] the Saturn Award for Best Animated Film, and the Academy Award for
+Best Animated Feature as well as being nominated for five other Academy Awards
+at the 81st Academy Awards. WALL-E ranks first in TIME's "Best Movies of the
+Decade".[5]&lt;/p&gt;
+
+&lt;p&gt;The film is seen as a critique on larger societal issues. It addresses
+consumerism, nostalgia, environmental problems, waste management, the immense
+impact humans have on the Earth, and the direction in which the human race is
+headed.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>88d6fbb3-bed0-43be-ad99-684041856cfe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="up">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>55a0835c-0b09-49ca-933f-22ba09fb411f</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Up</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="up">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8b2e36b1-7069-41d1-b0fd-a440a58fc0d3</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>By tying thousands of balloons to his home, 78-year-old Carl sets out to fulfill his lifelong dream to see the wilds of South America. Russell, a wilderness explorer 70 years younger, inadvertently becomes a stowaway.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Up</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2009</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/up</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:51:05.236+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:09:17.300+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:09:19.625+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d5ffd5ff-6e05-464b-8913-cb4cd88095ca</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Up is a 2009 American 3D computer-animated comedy drama-adventure film
+produced by Pixar Animation Studios and released by Walt Disney Pictures.
+Directed by Pete Docter, the film centers on an elderly widower named Carl
+Fredricksen (voiced by Edward Asner) and an earnest young Wilderness Explorer
+named Russell (Jordan Nagai). By tying thousands of balloons to his home,
+78-year-old Carl sets out to fulfill his lifelong dream to see the wilds of
+South America and to complete a promise made to his lifelong love. The film was
+co-directed by Bob Peterson, with music composed by Michael Giacchino.&lt;/p&gt;
+
+&lt;p&gt;Docter began working on the story in 2004, which was based on fantasies of
+escaping from life when it becomes too irritating. He and eleven other Pixar
+artists spent three days in Venezuela gathering research and inspiration. The
+designs of the characters were caricatured and stylized considerably, and
+animators were challenged with creating realistic cloth. The floating house is
+attached by a varying number between 10,000 and 20,000 balloons in the film's
+sequences. Up was Pixar's first film to be presented in Disney Digital 3-D.[3]
+&lt;/p&gt;
+
+&lt;p&gt;Up was released on May 29, 2009 and opened the 2009 Cannes Film Festival,
+becoming the first animated and 3D film to do so.[4] The film became a great
+financial success, accumulating over $731 million in its theatrical release. Up
+received critical acclaim, with most reviewers commending the humor and heart of
+the film. Edward Asner was praised for his portrayal of Carl, and a montage of
+Carl and his wife Ellie aging together was widely lauded. The film received five
+Academy Award nominations, including Best Picture, making it the second animated
+film in history to receive such a nomination (and Pixar's first Best Picture
+nomination), following Beauty and the Beast (1991).&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>8a143b1d-e81b-4d96-8247-ba2345d4e3d1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="the-incredibles">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b9fe7b58-0c92-4fd1-95b1-f3b6ec85aab6</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>The Incredibles</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="the-incredibles">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1f6a18a5-f15b-41dd-98ad-7259a65dc59a</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>The Incredibles</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2004</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/the-incredibles</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:52:04.005+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:09:37.295+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:09:39.550+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8d7244c6-a812-49ff-91c2-cc608ce1d375</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The Incredibles is a 2004 American computer-animated comedy superhero film
+written and directed by Brad Bird and released by Walt Disney Pictures. It was
+the sixth film produced by Pixar Animation Studios. The story follows a family
+of superheroes living a quiet suburban life, forced to hide their powers. When
+Mr. Incredible's desire to help people drags him into battle with an evil
+villain and his killer robot, the entire Parr family is forced into action to
+save the world.&lt;/p&gt;
+
+&lt;p&gt;Bird, who was Pixar's first outside director, developed the film as an
+extension of 1960s comic books and spy films from his boyhood and personal
+family life. He pitched the film to Pixar after the box office disappointment of
+his first feature, The Iron Giant (1999), and carried over much of its staff to
+develop The Incredibles. The animation team was tasked with animating an
+all-human cast, which required creating new technology to animate detailed human
+anatomy, clothing and realistic skin and hair. Michael Giacchino composed the
+film's orchestral score.&lt;/p&gt;
+
+&lt;p&gt;The film premiered on October 27, 2004 at the BFI London Film Festival and
+had its general release in the United States on November 5, 2004. The film
+performed highly at the box office, grossing $631 million worldwide during its
+original theatrical run. The Incredibles was met with high critical acclaim,
+garnering high marks from professional critics and audiences, and provoking
+commentary on its themes. Many critics called it the best film of 2004,
+receiving the 2004 Annie Award for Best Animated Feature, along with two Academy
+Awards. It became the first entirely animated film to win the prestigious Hugo
+Award for Best Dramatic Presentation.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>61fa0613-de31-406f-8e4b-277b64088d33</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="brave">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>bff290a6-b6c4-4ddb-9c68-2df76ab38564</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Brave</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="brave">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cc94b103-66b6-43f8-9a57-b4c5e384845b</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>Determined to make her own path in life, Princess Merida defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Brave</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2012</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/brave</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:53:16.762+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:09:55.696+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:10:24.141+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e75f8a55-c4f0-49fd-b521-07376c04a39a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Brave is a 2012 American computer-animated fantasy film produced by Pixar
+Animation Studios and released by Walt Disney Pictures. The story was conceived
+by writer/director Brenda Chapman, who drew inspiration from her relationship
+with her own daughter. Chapman became Pixar’s first female director of a
+feature-length film.[4] Brave was written by Chapman, Mark Andrews, Steve
+Purcell, and Irene Mecchi, directed by Chapman and Andrews,[4] and co-directed
+by Purcell. The film's voice cast features Kelly Macdonald, Julie Walters, Billy
+Connolly, Emma Thompson, Kevin McKidd, Craig Ferguson, and Robbie Coltrane. To
+create the most complex visuals possible, Pixar completely rewrote their
+animation system for the first time in 25 years.[5] It is the first film to use
+the Dolby Atmos sound format.&lt;/p&gt;
+
+&lt;p&gt;Set in the Scottish Highlands, the film tells the story of a princess named
+Merida who defies an age-old custom, causing chaos in the kingdom by expressing
+the desire to not be betrothed. After consulting a witch for help, Merida
+accidentally transforms her mother into a bear and is forced to undo the spell
+herself before it is too late. Brave premiered on June 10, 2012, at the Seattle
+International Film Festival, and was released in North America on June 22, 2012,
+to both positive reviews and box office success. The film won the Academy Award
+for Best Animated Film,[6][7] the Golden Globe Award for Best Animated Feature
+Film,[8] and the BAFTA Award for Best Animated Film.[9]&lt;/p&gt;
+
+&lt;p&gt;Preceding the feature is a short film entitled La Luna, directed by Enrico
+Casarosa.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>bfb52414-3ed2-48f0-b21e-7355c9be230e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="toy-story-3">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7c33b0d6-c7c8-48fd-8e0e-4818a41199ce</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Toy Story 3</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="toy-story-3">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>45cfc422-9695-40a7-bfb1-de03ac5a1efe</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Toy Story 3</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2010</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/toy-story-3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:54:04.109+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:10:17.109+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:10:20.843+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>df8d5f9a-d662-4f64-b5ee-c4c912462653</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Toy Story 3 is a 2010 American 3D computer-animated comedy drama film, and
+the third film in the Toy Story series.[2] It was produced by Pixar Animation
+Studios and released by Walt Disney Pictures. Directed by Lee Unkrich, the
+screenplay was written by Michael Arndt, while Unkrich wrote the story along
+with John Lasseter and Andrew Stanton, respectively director and co-writer of
+the first two films. The film was released worldwide from June through
+October[3] in the Disney Digital 3-D, RealD, and IMAX 3D formats. Toy Story 3
+was the first film to be released theatrically with Dolby Surround 7.1 sound.
+&lt;/p&gt;
+
+&lt;p&gt;The plot focuses on the toys Woody, Buzz Lightyear, and their friends dealing
+with an uncertain future as their owner, Andy, prepares to leave for college.
+Actors Tom Hanks, Tim Allen, Joan Cusack, Don Rickles, Estelle Harris, John
+Ratzenberger, Wallace Shawn, Jeff Pidgeon, Jodi Benson, R. Lee Ermey, John
+Morris, and Laurie Metcalf reprised their voice-over roles from the previous
+films. Jim Varney, who played Slinky Dog in the first two films, and Joe Ranft,
+who portrayed Lenny and Wheezy, both died before production began on Toy Story
+3. The role of Slinky Dog was taken over by Blake Clark (a friend of Varney),
+while Ranft's characters and various others were written out of the story. New
+characters include performances by Ned Beatty, Timothy Dalton, Kristen Schaal,
+Bonnie Hunt, Whoopi Goldberg, Jeff Garlin, Richard Kind, and Michael Keaton.
+&lt;/p&gt;
+
+&lt;p&gt;The feature broke Shrek the Third's record as the biggest opening day North
+American gross for an animated film unadjusted for inflation,[4] and had a big
+opening weekend with an unadjusted gross of $110,307,189. It is also the
+highest-grossing opening weekend for a Pixar film,[5] and was previously the
+highest-grossing opening weekend for a film to have opened in the month of June
+(surpassed by Man of Steel).[6][7] This is the highest-grossing film of 2010,
+both in the United States and Canada, and worldwide. In early August, it became
+Pixar's highest-grossing film at the North American and worldwide box offices
+(surpassing Finding Nemo), and the highest-grossing animated film of all time
+worldwide (surpassing Shrek 2).[8] Later that month, Toy Story 3 became the only
+animated film in history to make over $1 billion worldwide.[9] It is currently
+the 11th-highest-grossing film of all time.[10]&lt;/p&gt;
+
+&lt;p&gt;Toy Story 3 was nominated for five Academy Awards, including Best Picture,
+Best Adapted Screenplay, and Best Sound Editing.[11] It was the third animated
+film (after Beauty and the Beast and Up) to be nominated for Academy Award for
+Best Picture. It won the awards for Best Animated Feature and Best Original
+Song.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>a1f7dd3a-5f02-4ade-833f-e48259d77909</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="monsters-university">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a53cb70b-d23e-4c30-8fb6-1d003fa39df5</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Monsters University</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="monsters-university">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>57cdec9e-ff06-4626-bf1e-512b5ec9f4fd</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>A look at the relationship between Mike and Sulley during their days at Monsters University -- when they weren't necessarily the best of friends.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Monsters University</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2013</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/monsters-university</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:54:58.751+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:16:03.959+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:16:15.886+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>536ed9fd-acf1-4380-9cea-a6e2cf4a3711</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Monsters University is a 2013 American 3D computer-animated comedy film
+produced by Pixar Animation Studios and released by Walt Disney Pictures.[6] It
+was directed by Dan Scanlon and produced by Kori Rae. It is the fourteenth
+feature film produced by Pixar and is a prequel to 2001's Monsters, Inc.,
+marking the first time Pixar has made a prequel film.[7]&lt;/p&gt;
+
+&lt;p&gt;Disney, as the rights holder, had plans for a second Monsters, Inc. film
+since 2005. Following disagreements with Pixar, Disney tasked its Circle 7
+Animation unit to make the sequel.[8] An early draft of the film was developed,
+however, Disney's purchase of Pixar in early 2006 led to the cancellation of the
+Circle 7's version of the film.[9] A Pixar-made sequel was confirmed in 2010,[6]
+and in 2011, it was confirmed that the film would instead be a prequel titled
+Monsters University.[10]&lt;/p&gt;
+
+&lt;p&gt;Monsters University tells the story of two monsters, Mike and Sulley, and
+their time studying at college, where they start off as rivals, but slowly
+become best friends. Billy Crystal, John Goodman, Steve Buscemi, Bob Peterson,
+and John Ratzenberger reprise their roles as Mike Wazowski, James P. Sullivan,
+Randall Boggs, Roz, and the Abominable Snowman, respectively. Bonnie Hunt, who
+played Ms. Flint in the first film, voices Mike's grade school teacher, Ms.
+Karen Graves. The music for the film is composed by Randy Newman, marking his
+seventh collaboration with Pixar.&lt;/p&gt;
+
+&lt;p&gt;Monsters University premiered on June 5, 2013 at the BFI Southbank in London,
+United Kingdom and was released on June 21, 2013, in the United States. It was
+accompanied in theaters by a short film, The Blue Umbrella, directed by Saschka
+Unseld.[11] The film received positive reviews and was a box office success,
+grossing $743 million against its estimated budget of $200 million&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>7fab3c37-6dbf-4673-b668-e851fe9adce5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="cars-2">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>18aa49ff-8d5e-48c1-a61c-00bcaeddd6ad</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Cars 2</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="cars-2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>31b1ae5b-b3d1-487a-9b67-60f377c13535</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>Star race car Lightning McQueen and his pal Mater head overseas to compete in the World Grand Prix race. But the road to the championship becomes rocky as Mater gets caught up in an intriguing adventure of his own: international espionage.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Cars 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2011</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/cars-2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:55:50.923+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:10:59.150+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:11:00.897+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c7457fa7-1043-4230-86f4-468d87308bea</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Cars 2 is a 2011 American computer-animated action comedy spy film produced
+by Pixar Animation Studios and released by Walt Disney Pictures. The film is the
+sequel to the 2006 film Cars. In the film, race car Lightning McQueen (voiced by
+Owen Wilson) and tow truck Mater (voiced by Larry the Cable Guy) head to Japan
+and Europe to compete in the World Grand Prix, but Mater becomes sidetracked
+with international espionage.[3][4][5] The film is directed by John Lasseter,
+co-directed by Brad Lewis, written by Ben Queen, and produced by Denise
+Ream.[4][5][6]&lt;/p&gt;
+
+&lt;p&gt;Cars 2 was released in the United States on June 24, 2011 (five years after
+the first film). The film was presented in Disney Digital 3D and IMAX 3D, as
+well as traditional two-dimensional and IMAX formats.[7] The film was first
+announced in 2008, alongside Up, Newt, and Brave (previously known as The Bear
+and the Bow), and it is the 12th animated film from the studio.[8][9] Even
+though the film received mixed reviews from critics, breaking the studio's
+streak of critical success, it ranked No. 1 on its opening weekend in the U.S.
+and Canada with $66,135,507 and topping international success of such previous
+Pixar works as Toy Story, A Bug's Life, Toy Story 2, Monsters, Inc., Cars, and
+WALL-E.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>246fb896-2940-4a13-a00b-821908d5902c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="finding-nemo">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0b49e1b0-1195-4b03-957d-3df570568006</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Finding Nemo</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="finding-nemo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e12f8709-70d3-47d1-8dea-72f2e7212899</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Finding Nemo</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2003</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/finding-nemo</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:56:38.949+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:11:25.212+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:11:27.696+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>71bdb09f-12a8-4fd0-bcee-572afe001897</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Finding Nemo is a 2003 American computer-animated comedy-drama adventure film
+written and directed by Andrew Stanton, released by Walt Disney Pictures, and
+the fifth film produced by Pixar Animation Studios. It tells the story of the
+over-protective clownfish named Marlin (Albert Brooks) who, along with a regal
+tang named Dory (Ellen DeGeneres), searches for his abducted son Nemo (Alexander
+Gould) all the way to Sydney Harbour. Along the way, Marlin learns to take risks
+and let Nemo take care of himself.&lt;/p&gt;
+
+&lt;p&gt;It is Pixar's first film to be released in cinemas in the northern hemisphere
+summer. The film was re-released for the first time in 3D on September 14, 2012,
+and it was released on Blu-ray on December 4, 2012. A sequel, Finding Dory, is
+in development, set to be released on June 17, 2016.[2]&lt;/p&gt;
+
+&lt;p&gt;The film received widespread critical acclaim, won the Academy Award for Best
+Animated Feature, and was nominated in three more categories including Best
+Original Screenplay. It was the second highest-grossing film of 2003, earning a
+total of $936 million worldwide.[1] Finding Nemo is the best-selling DVD of all
+time, with over 40 million copies sold as of 2006,[3] and was the
+highest-grossing G-rated film of all time before Pixar's own Toy Story 3
+overtook it. It is the 23rd highest-grossing film of all time, as well as the
+3rd highest-grossing animated film. In 2008, the American Film Institute named
+it the 10th greatest animated film ever made during their Top 10.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>5ce99b27-ff57-476b-8362-934800b1335c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="monsters-inc">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>413ac00e-85f8-4088-97c4-683e9ebb2657</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Monsters, Inc.</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="monsters-inc">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e46e13c9-a66a-4a5a-8510-62ee1f57ee8a</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>Monsters generate their city's power by scaring children, but they are terribly afraid themselves of being contaminated by children, so when one enters Monstropolis, top scarer Sulley finds his world disrupted.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Monsters, Inc.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>2001</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/monsters-inc</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:57:24.153+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:11:48.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:11:49.855+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>37e8e5ce-48ac-45e0-bdad-e770d5ae47b9</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Monsters, Inc. is a 2001 American computer-animated comedy film directed by
+Pete Docter, produced by Pixar Animation Studios and released by Walt Disney
+Pictures. Co-directed by Lee Unkrich and David Silverman, the film centers
+around two monsters employed at the titular Monsters, Inc.: top scarer James P.
+"Sulley" Sullivan (John Goodman), and his one-eyed partner and best friend, Mike
+Wazowski (Billy Crystal). Monsters, Inc. employees generate their city's power
+by targeting and scaring children, but they are themselves afraid that the
+children may contaminate them; when one child enters Monstropolis, Mike and
+Sulley must return her.&lt;/p&gt;
+
+&lt;p&gt;Docter began developing the film in 1996 and wrote the story with Jill
+Culton, Jeff Pidgeon, and Ralph Eggleston. Fellow Pixar director Andrew Stanton
+wrote the screenplay with screenwriter Daniel Gerson. The characters went
+through many incarnations over the film's five-year production process. The
+technical team and animators found new ways to render fur and cloth
+realistically for the film. Randy Newman, who composed the music for Pixar's
+three prior films, returned to compose its fourth.&lt;/p&gt;
+
+&lt;p&gt;Although the film suffered from two lawsuits against the filmmakers, filed by
+Lori Madrid before the film's release and Stanley Mouse in 2002 respectively,
+that were ultimately dismissed, Monsters, Inc. was praised by critics and proved
+to be a major box office success from its release on November 2, 2001,
+generating over $562 million worldwide.[1]&lt;/p&gt;
+
+&lt;p&gt;Monsters, Inc. saw a 3D re-release in theaters on December 19, 2012. Its
+prequel, Monsters University, directed by Dan Scanlon, was released on June 21,
+2013.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>dff26c36-9dc0-49fa-9212-84d8fcff4056</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="toy-story-2">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7a19e5a8-f10e-46a0-9026-9f30c8007f28</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Toy Story 2</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="toy-story-2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e539492b-f123-415b-86f4-d11daebaafdf</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>When Woody is stolen by a toy collector, Buzz and his friends vow to rescue him, but Woody finds the idea of immortality in a museum tempting.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Toy Story 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>1999</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/toy-story-2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:58:24.114+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:12:07.037+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:12:09.202+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>32eb1e0b-5f2c-4e14-aca3-d472ed998a0c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Toy Story 2 is a 1999 American computer-animated comedy adventure film
+produced by Pixar Animation Studios. Directed by John Lasseter and co-directed
+by Lee Unkrich and Ash Brannon, it is the sequel to the 1995 film Toy Story.
+&lt;/p&gt;
+
+&lt;p&gt;Woody is stolen by a toy collector, prompting Buzz Lightyear and his friends
+to vow to rescue him. However, Woody finds the idea of immortality in a museum
+tempting. Many of the original characters and voices from Toy Story returned for
+this sequel, and several new characters, including Jessie (voiced by Joan
+Cusack), Barbie (voiced by Jodi Benson), and Mrs. Potato Head (voiced by Estelle
+Harris), were introduced.&lt;/p&gt;
+
+&lt;p&gt;Disney initially envisioned the film as a direct-to-video sequel. Toy Story 2
+began production in a building separated from Pixar, on a small scale, as most
+of the main Pixar staff were busy working on A Bug's Life (1998). When story
+reels proved promising, Disney upgraded the film to theatrical release, but
+Pixar was unhappy with the film's quality. Lasseter and the story team
+redeveloped the entire plot in one weekend. Although most Pixar features take
+years to develop, the established release date could not be moved and the
+production schedule for Toy Story 2 was compressed into nine months.[3][4]&lt;/p&gt;
+
+&lt;p&gt;Despite production struggles, Toy Story 2 opened in November 1999 to wildly
+successful box office numbers, eventually grossing over $485 million, and highly
+positive critical reviews. Toy Story 2 has been considered by critics and
+audiences alike to be one of few sequels that outshine the original,[5] and it
+continues to be featured frequently on lists of the greatest animated films ever
+made. The film has seen multiple home media releases and a theatrical 3-D
+re-release in 2009, 10 years after its initial release. The film's success led
+to the production of Toy Story 3 in 2010, which was also highly successful.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>d284c4e9-0407-48ef-8046-1457ef471988</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="a-bugs-life">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>be656ef2-1a5f-4912-bfa3-8130677e0eba</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>A Bug's Life</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="a-bugs-life">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d04067a8-dbe9-419a-a8bf-be71252ebbd0</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>A misfit ant, looking for "warriors" to save his colony from greedy grasshoppers, recruits a group of bugs that turn out to be an inept circus troupe.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>A Bug's Life</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>1998</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/a-bugs-life</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T00:59:27.692+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:12:27.400+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:12:30.713+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ecec752c-fd15-4a0f-9871-45b8e32e47a8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;A Bug's Life (stylized as a bug's life) is a 1998 American computer-animated
+comedy adventure film produced by Pixar Animation Studios. Directed by John
+Lasseter and co-directed by Andrew Stanton, the film involves a misfit ant,
+Flik, who is looking for "tough warriors" to save his colony from greedy
+grasshoppers. Flik recruits a group of bugs that turn out to be an inept circus
+troupe. Randy Newman composed the music for the film, which stars the voices of
+Dave Foley, Kevin Spacey, Julia Louis-Dreyfus, Hayden Panettiere, David Hyde
+Pierce, Joe Ranft, Denis Leary, Jonathan Harris, Madeline Kahn, Bonnie Hunt,
+Brad Garrett, and Mike McShane.&lt;/p&gt;
+
+&lt;p&gt;The film is a retelling of Aesop's fable The Ant and the Grasshopper.[2]
+Production began shortly after the release of Toy Story in 1995. The screenplay
+was penned by Stanton and comedy writers Donald McEnery and Bob Shaw. The ants
+in the film were re-designed to be more appealing, and Pixar's animation unit
+employed new technical innovations in computer animation. During production, the
+filmmakers became embroiled in a public feud with DreamWorks due to a similar
+film, Antz.&lt;/p&gt;
+
+&lt;p&gt;A Bug's Life was released to theaters on November 25, 1998 by Walt Disney
+Pictures and was a box office success, surpassing competition and grossing
+$363,398,565 in receipts.[1] The film received positive reviews from film
+critics, who commended the storyline and animation. The film has been released
+multiple times on home video.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>aed8269c-7a4d-47eb-96f9-0ba4a9fb0d13</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="toy-story">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d6a7b860-ee56-4535-914a-d9ef62893018</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Toy Story</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="toy-story">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:moviedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>dba2e8a7-7dc6-4916-9f76-9209d2ab5e0e</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Toy Story</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:year" sv:type="Long">
+        <sv:value>1995</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>movies/toy-story</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:00:19.822+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:12:45.694+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T01:12:47.651+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e0917081-60d2-4b38-af98-8fcd6e76871e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Toy Story is a 1995 American computer-animated buddy-comedy adventure film
+produced by Pixar Animation Studios and directed by John Lasseter, released by
+Walt Disney Pictures, Toy Story was the first feature-length computer-animated
+film and the first film produced by Pixar. Toy Story follows a group of
+anthropomorphic toys who pretend to be lifeless whenever humans are present, and
+focuses on the relationship between Woody, a pullstring cowboy doll (Tom Hanks),
+and Buzz Lightyear, an astronaut action figure (Tim Allen). The film was written
+by John Lasseter, Andrew Stanton, Joel Cohen, Alec Sokolow, and Joss Whedon, and
+featured music by Randy Newman. Its executive producers were Steve Jobs and
+Edwin Catmull.&lt;/p&gt;
+
+&lt;p&gt;Pixar, which produced short animated films to promote their computers, was
+approached by Disney to produce a computer-animated feature after the success of
+the short Tin Toy (1988), which is told from a small toy's perspective.
+Lasseter, Stanton, and Pete Docter wrote early story treatments which were
+thrown out by Disney, who pushed for a more edgy film. After disastrous story
+reels, production was halted and the script was re-written, better reflecting
+the tone and theme Pixar desired: that "toys deeply want children to play with
+them, and that this desire drives their hopes, fears, and actions."[3] The
+studio, then consisting of a relatively small number of employees, produced the
+film under minor financial constraints.[4][5]&lt;/p&gt;
+
+&lt;p&gt;The top-grossing film on its opening weekend,[6] Toy Story went on to earn
+over $361 million worldwide.[2] Reviews were entirely positive, praising both
+the animation's technical innovation and the screenplay's wit and
+sophistication,[7][8] and it is now widely considered by many critics to be one
+of the best animated films ever made.[9] In addition to home media releases and
+theatrical re-releases, Toy Story-inspired material has run the gamut from toys,
+video games, theme park attractions, spin-offs, merchandise, and two sequels—Toy
+Story 2 (1999) and Toy Story 3 (2010)—both of which received massive commercial
+success and critical acclaim. Toy Story was inducted into the National Film
+Registry as being "culturally, historically, or aesthetically significant" in
+2005, its first year of eligibility.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:poster">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>b3ba7fec-f963-4e50-9005-b6ac320d4304</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Movies</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

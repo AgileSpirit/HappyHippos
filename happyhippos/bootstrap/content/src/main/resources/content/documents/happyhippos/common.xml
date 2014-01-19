@@ -37,115 +37,6 @@
       <sv:value>Common</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="homepage">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:handle</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
-      <sv:value>hippo:translated</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>3ad3d284-9f4c-4b27-8b35-2aebfa5159f0</sv:value>
-    </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Home Page</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="homepage">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>happyhippos:textdocument</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
-        <sv:value>hippotranslation:translated</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>831c5a99-6b1e-4532-8b25-1bae4d247629</sv:value>
-      </sv:property>
-      <sv:property sv:name="happyhippos:summary" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="happyhippos:title" sv:type="String">
-        <sv:value>The IUCN Red List of Threatened Species</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>common/homepage</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>published</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2010-01-21T11:34:11.055+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-01-17T16:49:03.961+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-01-17T16:49:06.102+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>happyhippos-common-homepage-id</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:node sv:name="hippotranslation:translations">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippotranslation:translations</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="happyhippos:body">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippostd:html</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;html&gt;
-&lt;body&gt;
-
-&lt;p&gt;The IUCN Red List of Threatened Species™ is widely recognized as the most
-comprehensive, objective global approach for evaluating the conservation status
-of plant and animal species. From its small beginning, The IUCN Red List has
-grown in size and complexity and now plays an increasingly prominent role in
-guiding conservation activities of governments, NGOs and scientific
-institutions. The introduction in 1994 of a scientifically rigorous approach to
-determine risks of extinction that is applicable to all species, has become a
-world standard. In order to produce The IUCN Red List of Threatened Species™,
-the IUCN Global Species Programme working with the IUCN Survival Commission
-(SSC) and with members of IUCN draws on and mobilizes a network of scientists
-and partner organizations working in almost every country in the world, who
-collectively hold what is likely the most complete scientific knowledge base on
-the biology and conservation status of species.&lt;/p&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-  </sv:node>
   <sv:node sv:name="about-us">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
@@ -234,6 +125,333 @@ the biology and conservation status of species.&lt;/p&gt;
         <sv:property sv:name="hippostd:content" sv:type="String">
           <sv:value>We are Hippo! Come and visit us at &lt;a href="http://www.onehippo.com" title="Hippo website"&gt;www.onehippo.com&lt;/a&gt;!</sv:value>
         </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="movies-page">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5a4610b3-a843-4beb-9218-35639ace7c1e</sv:value>
+    </sv:property>
+    <sv:node sv:name="movies-page">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:textdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>31839a61-483d-4ae7-a012-19731895fec4</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:summary" sv:type="String">
+        <sv:value>Lorem ipsum dolor sit amet</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Movies Page</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/movies-page</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T02:22:19.824+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-18T02:22:40.884+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-18T02:22:42.699+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9673ba50-7252-41d3-8eed-ad1fa2cfe2f1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Movies Page</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>124fcf23-5754-4e52-940e-e413ea59651d</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Home page</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="homepage">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>happyhippos:homepagedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>57ac0179-e211-488b-afe0-9cc58535ceeb</sv:value>
+      </sv:property>
+      <sv:property sv:name="happyhippos:title" sv:type="String">
+        <sv:value>Hello world !</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/homepage</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-01-18T14:36:41.996+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-01-19T01:07:51.285+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-01-19T01:07:53.201+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9e8ff6cd-ae26-4957-b88e-4f086fe7515c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="happyhippos:banners">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>happyhippos:bannercompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:text" sv:type="String">
+          <sv:value>Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn’t always the case. From the moment these two mismatched monsters met they couldn't stand each other. “Monsters University” unlocks the door to how Mike and Sulley overcame their differences and became the best of friends.</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>Monsters University</sv:value>
+        </sv:property>
+        <sv:node sv:name="happyhippos:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>b1c7230a-2644-4b69-a891-5b8dea879efd</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="happyhippos:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a53cb70b-d23e-4c30-8fb6-1d003fa39df5</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="happyhippos:banners">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>happyhippos:bannercompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:text" sv:type="String">
+          <sv:value>Since ancient times, stories of epic battles and mystical legends have been passed through the generations across the rugged and mysterious Highlands of Scotland. From Disney and Pixar, a new tale joins the lore when the courageous Merida confronts tradition and challenges destiny to change her fate.</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>Brave</sv:value>
+        </sv:property>
+        <sv:node sv:name="happyhippos:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>bae2b4ae-1078-498f-9907-e10f6458f632</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="happyhippos:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>bff290a6-b6c4-4ddb-9c68-2df76ab38564</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="happyhippos:banners">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>happyhippos:bannercompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:text" sv:type="String">
+          <sv:value>Star racecar Lightning McQueen
+and the incomparable tow truck Mater take their friendship to exciting new places in Cars 2 when they head overseas to compete in the first-ever World Grand Prix to determine the world's fastest car. But the road to the championship is filled with plenty of potholes, detours, and hilarious surprises when Mater gets caught up in an intriguing adventure of his own: international espionage.</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>Cars 2</sv:value>
+        </sv:property>
+        <sv:node sv:name="happyhippos:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>92968cf7-c953-4ab1-9251-afa7235912ca</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="happyhippos:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>18aa49ff-8d5e-48c1-a61c-00bcaeddd6ad</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="happyhippos:banners">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>happyhippos:bannercompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:text" sv:type="String">
+          <sv:value>Carl Fredricksen, a 78-year-old curmudgeonly balloon salesman, is not your average hero. When he ties thousands of balloons to his house and flies away to the wilds of South America, he finally fulfills his lifelong dream of adventure. But after Carl discovers an 8-year-old stowaway named Russell, this unlikely duo soon find themselves on a hilarious journey in a lost world filled with danger and surprises.</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>Up</sv:value>
+        </sv:property>
+        <sv:node sv:name="happyhippos:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>1ea587ae-d78c-4d6e-b0a3-001ea853f336</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="happyhippos:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>55a0835c-0b09-49ca-933f-22ba09fb411f</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="happyhippos:banners">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>happyhippos:bannercompound</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:text" sv:type="String">
+          <sv:value>What if mankind had to leave Earth and somebody forgot to turn the last robot off? After hundreds of years doing what he was built for, WALL•E discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.</sv:value>
+        </sv:property>
+        <sv:property sv:name="happyhippos:title" sv:type="String">
+          <sv:value>WALL-E</sv:value>
+        </sv:property>
+        <sv:node sv:name="happyhippos:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>b30e2615-8d1b-4964-af5c-17616a87527e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="happyhippos:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ba2ec0e2-c3e4-4a86-8c26-9bcc4f044c89</sv:value>
+          </sv:property>
+        </sv:node>
       </sv:node>
     </sv:node>
   </sv:node>
