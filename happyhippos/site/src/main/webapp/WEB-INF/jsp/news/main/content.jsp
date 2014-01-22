@@ -25,10 +25,9 @@
                                                 timeStyle="short"/>
                             </p>
                         </c:if>
-                        <p>${fn:escapeXml(document.summary)}</p>
                     </header>
 
-                    <hr>
+                    <p class="lead">${fn:escapeXml(document.summary)}</p>
 
                     <hst:html hippohtml="${document.html}"/>
 

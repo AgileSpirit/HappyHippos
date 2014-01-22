@@ -69,6 +69,7 @@
         ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
+        <%--
         <div class="container marketing">
 
             <h1>${document.title}</h1>
@@ -95,5 +96,6 @@
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
         </div>
+        --%>
     </c:otherwise>
 </c:choose>

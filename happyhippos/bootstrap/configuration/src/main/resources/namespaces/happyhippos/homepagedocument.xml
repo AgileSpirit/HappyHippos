@@ -28,7 +28,7 @@
         <sv:value>hippo:harddocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>52a108af-2db0-4652-82a3-bfe391d57b36</sv:value>
+        <sv:value>6a68ef17-d7d1-48b9-91bb-f8c04d6b00e5</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
@@ -41,72 +41,6 @@
       </sv:property>
       <sv:property sv:name="hipposysedit:uri" sv:type="String">
         <sv:value>http://www.onehippo.org/happyhippos/nt/1.0</sv:value>
-      </sv:property>
-      <sv:node sv:name="title">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hipposysedit:field</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:mandatory" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:multiple" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:ordered" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>happyhippos:title</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:type" sv:type="String">
-          <sv:value>String</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="banners">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hipposysedit:field</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:mandatory" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:multiple" sv:type="Boolean">
-          <sv:value>true</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:ordered" sv:type="Boolean">
-          <sv:value>true</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>happyhippos:banners</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:type" sv:type="String">
-          <sv:value>happyhippos:bannercompound</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="hipposysedit:nodetype">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hipposysedit:nodetype</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>6a68ef17-d7d1-48b9-91bb-f8c04d6b00e5</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
-      <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
-        <sv:value>true</sv:value>
-      </sv:property>
-      <sv:property sv:name="hipposysedit:supertype" sv:type="String" sv:multiple="true">
-        <sv:value>happyhippos:basedocument</sv:value>
-        <sv:value>hippostd:relaxed</sv:value>
-        <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:node sv:name="title">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -168,87 +102,12 @@
         <sv:value>hippo:harddocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>ba2d1ecd-98f0-4a32-affb-2754af7a9540</sv:value>
+        <sv:value>06ce1fe1-72c9-48c4-a696-a8681496a3fe</sv:value>
       </sv:property>
       <sv:property sv:name="happyhippos:title" sv:type="String">
         <sv:value/>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>holder</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:state" sv:type="String">
-        <sv:value>draft</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>new</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2014-01-18T14:36:21.071+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-01-18T14:36:21.071+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>document-type-locale-id</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>document-type-locale</sv:value>
-      </sv:property>
-      <sv:node sv:name="hippotranslation:translations">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippotranslation:translations</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="happyhippos:banners">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>happyhippos:bannercompound</sv:value>
-        </sv:property>
-        <sv:property sv:name="happyhippos:text" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="happyhippos:title" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:node sv:name="happyhippos:image">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogallerypicker:imagelink</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-        </sv:node>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="hipposysedit:prototype">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>nt:unstructured</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippostdpubwf:document</sv:value>
-        <sv:value>hippostd:relaxed</sv:value>
-        <sv:value>hippo:harddocument</sv:value>
-        <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>hippostd:publishableSummary</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>04fd24a7-cd42-4bdf-acc5-6c32443b6d9f</sv:value>
-      </sv:property>
-      <sv:property sv:name="happyhippos:title" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>homepagedocument/hipposysedit:prototypes/hipposysedit:prototype</sv:value>
-      </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>holder</sv:value>
       </sv:property>

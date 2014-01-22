@@ -59,13 +59,19 @@ body {
 
 }
 .news-details article {
-
+  color: #333;
 }
 .news-details article h1 {
-
+  color: #333;
+  margin: 0;
+}
+.news-details article h1 a {
+  color: #333;
 }
 .news-details article p.metadata {
-
+  border-bottom: 1px solid #ccc;
+  margin: 15px 0 20px;
+  padding: 0 0 20px;
 }
 .news-details article p.body {
 

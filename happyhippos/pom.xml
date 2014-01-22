@@ -2,10 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <modules>
-    <module>greeting</module>
-  </modules>
-
   <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
@@ -42,13 +38,11 @@
     <contributor/>
   </contributors>
   <issueManagement/>
-  <!--
   <scm>
-    <connection/>
-    <developerConnection/>
-    <url/>
+    <connection>scm:git:git@github.com:AgileSpirit/HappyHippos.git</connection>
+    <developerConnection>scm:git:git@github.com:AgileSpirit/HappyHippos.git</developerConnection>
+    <url>scm:git:git@github.com:AgileSpirit/HappyHippos.git</url>
   </scm>
-  -->
   <ciManagement/>
   <distributionManagement>
     <repository>
@@ -207,6 +201,7 @@
         <module>bootstrap</module>
         <module>cms</module>
         <module>site</module>
+        <module>greeting</module>
       </modules>
     </profile>
 
